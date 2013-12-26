@@ -1,0 +1,1696 @@
+@charset "UTF-8";
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+html { font-size: 100%; overflow-y: auto; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body { margin: 0; font-size: 13px; line-height: 1.231; background:#000;}
+
+body, button, input, select, textarea { font-family: purista-web, sans-serif; /*color: #8F8B86;*/ }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+
+/*[hidden] { display: none; }
+*/
+.wrap { margin: 0 auto; width: 980px; }
+.wide { width: 100%; }
+.relative { position: relative; }
+
+::-moz-selection { background: #23201b; color: #e4dfdb; text-shadow: none; }
+::selection { background: #23201b; color: #e4dfdb; text-shadow: none; }
+
+/*.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }*/
+
+#container {
+	width: 100%;
+}
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+
+/*ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }*/
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+   
+.col_1,  
+.col_2 {  
+    display:inline;  
+    float: left;  
+    position: relative;  
+    margin-left: 5px;  
+    margin-right: 5px;  
+}
+
+.col_1 {width:150px;}  
+.col_2 {width:270px;} 
+
+.jun_blue {
+	/*background-color: #66CCFF;*/
+}
+
+.agnes_pink {
+/*	background-color: #FFC0CB;*/
+}
+   
+
+#container #top {
+    width: 100%;
+    /*background-color: rgb(200,100,79);*/
+    height: 130px;
+    border-bottom: 7px solid #000;
+
+    background: rgb(228, 223, 219);
+
+}
+	
+	/* Wrapper */
+	#container #top #top-inner {
+    width: 980px;
+		margin: 0 auto;
+	}
+		
+		/* Logo */
+		#container #top #top-inner h1 {
+			width: 185px;
+           	height: 43px;
+           	margin-top: 45px;
+           	background-image: url('../images/main-logo.png') ;
+           	float: left;
+           	-webkit-transition: all .2s ease-in-out;
+           	-moz-transition: all .2s ease-in-out;
+          	-o-transition: all .2s ease-in-out;
+          	transition: all .2s ease-in-out;
+       	}
+		
+		#container #top #top-inner h1:hover {
+			zoom: 1;
+			-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+			filter: alpha(opacity=60);
+			-moz-opacity:0.6;
+			-khtml-opacity: 0.6;
+           	opacity: 0.6;
+       }
+		
+		#container #top #top-inner nav {
+           	float: left;
+           	margin: 25px 80px;
+		}
+
+			ul.sdt_menu{
+				margin:0;
+				padding:0;
+				list-style: none;
+				font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+				font-size:14px;
+				width:520px;
+			}
+
+				ul.sdt_menu a{
+				    text-decoration:none;
+				    outline:none;
+				}
+
+				ul.sdt_menu li{
+				    float:left;
+				    width:170px;
+				    height:85px;
+				    position:relative;
+				    cursor:pointer;
+				}
+
+					ul.sdt_menu li > a{
+					    position:absolute;
+					    top:0px;
+					    left:0px;
+					    width:170px;
+					    height:85px;
+					    z-index:12;
+					    background:transparent url(../images/overlay.png) no-repeat bottom right;
+/*					    -moz-box-shadow:0px 0px 2px #000;
+					    -webkit-box-shadow:0px 0px 2px #000;
+					    box-shadow:0px 0px 2px #000;*/
+					}
+
+				ul.sdt_menu li a img{
+				    border:none;
+				    position:absolute;
+				    width:0px;
+				    height:0px;
+				    bottom:0px;
+				    left:85px;
+				    z-index:100;
+				    /*-moz-box-shadow:0px 0px 4px #000;
+				    -webkit-box-shadow:0px 0px 4px #000;
+				    box-shadow:0px 0px 4px #000;*/
+				    background:#000000;
+				}
+
+				ul.sdt_menu li span.sdt_wrap{
+				    position:absolute;
+				    top:25px;
+				    left:0px;
+				    width:170px;
+				    height:60px;
+				    z-index:15;
+				}
+
+				ul.sdt_menu li span.sdt_active{
+				    position:absolute;
+				    background:#111;
+				    top:85px;
+				    width:170px;
+				    height:0px;
+				    left:0px;
+				    z-index:14;
+				    -moz-box-shadow:0px 0px 4px #000 inset;
+				    -webkit-box-shadow:0px 0px 4px #000 inset;
+				    box-shadow:0px 0px 4px #000 inset;
+				}
+
+				ul.sdt_menu li span span.sdt_link,
+				ul.sdt_menu li span span.sdt_descr,
+				ul.sdt_menu li div.sdt_box a{
+				    margin-left:15px;
+				    text-transform:uppercase;
+				    text-shadow:0.25px 0.25px 0.25px #000;
+				}
+
+				ul.sdt_menu li span span.sdt_link{
+				    color:#000000;
+				    font-size:24px;
+				    float:left;
+				    clear:both;
+				}
+
+				ul.sdt_menu li span span.sdt_descr{
+				    color:#4e9bc5;
+				    float:left;
+				    clear:both;
+				    width:155px;
+				    font-size:10px;
+				    letter-spacing:1px;
+				}
+
+				ul.sdt_menu li div.sdt_box{
+				    display:block;
+				    position:absolute;
+				    width:170px;
+				    overflow:hidden;
+				    height:170px;
+				    top:85px;
+				    left:0px;
+				    display:none;
+				    background:#000;
+				    z-index:100;
+				}
+
+				ul.sdt_menu li div.sdt_box a{
+				    float:left;
+				    clear:both;
+				    line-height:30px;
+				    color:#4e9bc5;
+				}
+
+				ul.sdt_menu li div.sdt_box a:first-child{
+				    margin-top:15px;
+				}
+
+				ul.sdt_menu li div.sdt_box a:hover{
+				    color:#fff;
+				}
+/*		
+			#container #top #top-inner nav a {
+				font: 15px purista-web, sans-serif;
+				color: #4A4237;
+				padding: 10px 12px 4px 12px;
+              	text-decoration: none;
+              	text-transform: uppercase;
+              	letter-spacing: 1px;
+              	-webkit-transition: all .1s ease-in-out;
+              	-moz-transition: all .1s ease-in-out;
+              	-o-transition: all .1s ease-in-out;
+              	transition: all .1s ease-in-out;
+              	text-decoration: none;
+              	float: left;
+			}
+			
+			#container #top #top-inner nav a:visited {
+				color: #4a4237;
+           }
+		   
+			#container #top #top-inner nav a:hover{ 
+				color: #7a6e5e; 
+           }
+		   
+			#container #top #top-inner nav a:focus { 
+				outline: thin dotted; 
+			}
+			
+			#container #top #top-inner nav a:hover, a:active { 
+				outline: 0; 
+			}
+			
+				#container #top #top-inner nav a.withSub {
+					padding-right: 28px;
+                 	background: url('../images/down-arrow.gif') no-repeat right 50%;
+				}*/
+		
+/*		#container #top #top-inner nav ul {}
+*/		
+/*		#container #top #top-inner nav ul li {
+			position: relative;
+           	float: left;
+           	display: block;
+			z-index: 6700;
+           	-webkit-transition: all .2s;
+           	-moz-transition: all .2s;
+           	-o-transition: all .2s;
+           	transition: all .2s;
+		}*/
+			
+			/* dropdown */
+/*			#container #top #top-inner nav ul li div.dropdown_2columns {
+            	margin:4px auto;  
+			    float:left;  
+			    position:absolute;  
+			    left:-999em; 
+			    text-align:left;  
+			    padding:10px 5px 10px 5px;  
+			    border:5px solid #777777; 
+			    width: 320px;
+			    -moz-border-radius: 10px;  
+			    -webkit-border-radius: 10px;  
+			    border-radius: 10px;
+			}*/
+
+			/* check prev commented out section */
+/*			#container #top #top-inner nav ul li:hover div.dropdown_2columns {
+				left: -80px;
+				top: 25px;
+				background-color: #E0E0E0;
+			}*/
+
+/*			#container #top #top-inner nav ul li h2 {
+				font-family:Arial, Helvetica, sans-serif;
+    			line-height:10px;  
+    			text-align:center;  
+				font-size:21px;  
+    			font-weight:100;  
+    			letter-spacing:-1px;  
+    			margin:7px 0 14px 0;  
+    			padding-bottom:14px;  
+    			border-bottom:1px solid #666666; 
+			}*/
+
+
+/* =============================================================================
+   Splash
+   ========================================================================== */
+#container #splash {
+	width: 100%;
+	height: 600px;
+	background: rgb(203,202,200);
+	border-bottom: 7px solid #d4d0cc;
+}
+	#container #splash #splash-inner {
+		width: 100%;
+		height: 600px;
+		position: absolute;
+	}
+		
+		#container #splash #splash-inner #splash-inner-inner {
+			width: 1100px;
+			height: 570px;
+			margin: 30px auto;
+
+		}
+			#container #splash #splash-inner #splash-inner-inner .splash-box {
+				display: block;
+				float:left;	
+				width:513px;
+				height:inherit;
+				margin:0px 20px 20px 0px;
+				border: 6px solid;
+				border-radius: 20px;
+				-webkit-transition: all .1s ease-in-out;
+              	-moz-transition: all .1s ease-in-out;
+              	-o-transition: all .1s ease-in-out;
+              	transition: all .1s ease-in-out;
+              	box-shadow:2px 2px black; 
+			}
+
+			#container #splash #splash-inner #splash-inner-inner #splash-agnes {
+				background-color: rgb(223,217,208);
+			}
+
+			#container #splash #splash-inner #splash-inner-inner #splash-jun {
+				background-color: rgb(223,217,208);
+			}
+
+			#container #splash #splash-inner #splash-inner-inner .splash-box:hover {
+				zoom: 1;
+				-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+				filter: alpha(opacity=80);
+				-moz-opacity:0.8;
+				-khtml-opacity: 0.8;
+	           	opacity: 0.8;
+			}
+				#container #splash #splash-inner #splash-inner-inner .name {
+					opacity: 0.2;
+					padding: 0px 20px 0px 20px;
+					color: black;
+				}
+
+					#container #splash #splash-inner #splash-inner-inner .name .name_first {
+
+						font: italic 120px abril-display,serif;
+					}
+
+					#container #splash #splash-inner #splash-inner-inner .name .name_middle {
+						font: italic 120px abril-display,serif;
+						margin-top:-30px;
+						margin-bottom:-30px;
+
+					}
+
+					#container #splash #splash-inner #splash-inner-inner .name .name_last {
+						font: italic bold 120px abril-display,serif;
+						text-transform: uppercase;
+					}
+				
+
+
+/* =============================================================================
+   Footer
+   ========================================================================== */
+#container #bottom {
+	width: 100%;
+	height: 120px;
+	background-color: #000;
+	float: left;
+}
+	
+	#container #bottom #bottom-inner {
+		width: 980px;
+		height: 100%;
+		margin: 0 auto;
+	}
+
+		#container #bottom #bottom-inner div {
+			padding-top: 36px;
+		}
+
+			#container #bottom #bottom-inner div ul {
+				padding: 0;
+				margin: 0;
+				width: 880px;
+				float: left;
+			}
+
+				#container #bottom #bottom-inner div ul li {
+					float: left;
+					text-transform: uppercase;
+					font-size: 16px;
+					font-family: purista-web, sans-serif;
+					color: #918574;
+					letter-spacing: 1px;
+					list-style: none;
+					padding-right: 63px;
+				}
+
+				#container #bottom #bottom-inner div ul li.last {
+					padding: 0;
+				}
+
+				#container #bottom #bottom-inner div a {
+					display:block;
+					float: left;
+				}
+
+				#container #bottom #bottom-inner div a.hs3 {
+					float:right;
+					margin-top: 6px;
+				}
+
+				#container #bottom #bottom-inner div a img {
+			      	zoom: 1;
+			      	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+			      	filter: alpha(opacity=30);
+			      	-moz-opacity:0.3;
+			      	-khtml-opacity: 0.3;
+			   		opacity: 0.3;
+					-webkit-transition: all .3s ease-in-out;
+					-moz-transition: all .3s ease-in-out;
+					-o-transition: all .3s ease-in-out;
+					transition: all .3s ease-in-out;
+			   	}
+			   	#container #bottom #bottom-inner div a:hover img {
+			      	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+			      	filter: alpha(opacity=100);
+			      	-moz-opacity:1;
+			      	-khtml-opacity: 1;
+			      	opacity: 1;
+		    	}
+
+
+/* =============================================================================
+   toriizuka.com styles
+   ========================================================================== */
+.ir a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out; transition: all .1s ease-in-out; text-decoration:none; }
+
+
+
+/* =============================================================================
+   QUICK-NAV
+   ========================================================================== */
+#quick-nav {
+    position: fixed;
+    display: none;
+    right: 21px;
+    z-index: 999;
+}
+
+	#quick-nav ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        list-style-type: none;
+        font-size: 28px;
+		line-height: 26px;
+    }
+        #quick-nav ul li {
+            padding: 0;
+            margin: 0;
+            -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+			-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        }
+
+/* =============================================================================
+   MY-STORY
+   ========================================================================== */
+
+#container #my-story {
+	float: left;
+	display: inline;
+}
+
+#container #my-story,
+#container #my-story #juntorii,
+#container #my-story #allan_a_martin,
+#container #my-story #jun_high_school,
+#container #my-story #waterloo,
+#container #my-story #jun_workforce/*,
+#container #my-story #jun_personal_work */{
+	width: 100%;
+	margin: 0 auto;
+}
+
+	#container #my-story #juntorii #juntorii-inner,
+	#container #my-story #allan_a_martin #allan_a_martin-inner,
+	#container #my-story #jun_high_school #jun_high_school-inner,
+	#container #my-story #waterloo #waterloo-inner,
+	#container #my-story #jun_workforce #jun_workforce-inner/*,
+	#container #my-story #jun_personal_work #jun_personal_work-inner*/ {
+		width: 980px;
+		margin: 0 auto;
+		position: relative;
+		height: inherit;
+	}
+
+	#juntorii {
+		height: 850px;
+/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
+*/		background: #000;
+		border-top: 7px solid #0f0d0d;
+	}
+
+		#juntorii h6 {
+            font: 143px abril-display, serif;
+            color: #FFF;
+            font-style: italic;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 70px;
+        }
+
+        #juntorii #juntorii-img {
+        	margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 200px;
+            right: -70px;
+            width: 613px;
+            height: 840px;
+/*            background: url('../images/wade-dwyanewade.png') transparent no-repeat;
+*/		}
+
+		#juntorii #juntorii-sub {
+		    font: 29px abril-display, serif;
+		    font-weight: normal;
+		    font-style: italic;
+		    color: #e4dfdb;
+		    margin: 0;
+		    padding: 0;
+		    position: absolute;
+		    top: 200px;
+            left: 0px;
+		}
+
+		    #juntorii #juntorii-sub p {
+		        position: relative;
+		        -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				display: block;
+				width: 700px;
+				height: 120px;
+		    }
+
+		        #juntorii #juntorii-sub p span {
+    		        position: absolute;
+    		    }
+
+    		        #juntorii #juntorii-sub p .juntorii-span-1 { top: 0px;  }
+                    #juntorii #juntorii-sub p .juntorii-span-2 { top: 35px; }
+                    #juntorii #juntorii-sub p .juntorii-span-3 { top: 70px; }
+/*                    #juntorii #juntorii-sub p .juntorii-span-4 { top: 105px; }
+                    #juntorii #juntorii-sub p .juntorii-span-5 { top: 140px; }*/
+
+        #juntorii #juntorii-p {
+          	font-family: 'Droid Serif', serif;
+			font-size: 18px;
+            font-weight: normal;
+            color: #e4dfdb;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 380px;
+            left: 0px;
+            width: 380px;
+            line-height: 150%;
+            text-align: justify;
+        }
+
+            #juntorii #juntorii-p p {
+                position: relative;
+		        -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            }
+
+        #juntorii #juntorii-link {
+            position: absolute;
+            top: 670px;
+            left: 480px;
+        }
+
+    #allan_a_martin {
+	    height: 930px;
+/*	    background: #515963 url('../images/bg-nba.jpg') center center no-repeat fixed;*/
+		background: #515963;
+	    border-top: 7px solid #000;
+	}
+
+		#allan_a_martin h6 {
+	        font: 95px abril-fatface, serif;
+            color: #E4DFDB;
+            margin: 0 auto;
+            padding: 0;
+            position: absolute;
+            top: 270px;
+            width: inherit;
+			height: 80px;
+			display: block;
+	    }
+
+	    	#allan_a_martin #mid_line1, 
+	    	#allan_a_martin #mid_line2,
+	    	#allan_a_martin #mid_line3{
+		        width: 100%;
+		        text-align:center;
+		    }
+
+		    	#allan_a_martin #mid_line1 h6{
+		    		font-family: Georgia, serif;
+		    		font-size: 160px;
+		    		bottom: 0px;
+			    }
+
+			    #allan_a_martin #mid_line2 h6 {
+			    	top:410px;
+			    	margin-top: 0px;
+			    	font: 80px abril-display, serif;
+			    	font-style: italic;
+			    }
+
+			    #allan_a_martin #mid_line3 h6 {
+			    	top:510px;
+			    	margin-top: -50px;
+			    	font-family: Palatino Linotype, serif;
+			    	font-size:80px;
+			    }
+
+		#allan_a_martin .first-p {
+	        position: absolute;
+            color: #E4DFDB;
+            font: 50px abril-display, serif;
+            font-style: italic;
+            top: 570px;
+            text-align: center;
+            width: 280px;
+            left: 0px;
+	    }
+
+	    #allan_a_martin .second-p {
+	        position: absolute;
+            color: #E4DFDB;
+            font: 18px purista-web, sans-serif;
+            top: 610px;
+            width: 500px;
+            left: 380px;
+            text-align:center;
+            font-family: 'Droid Serif', serif;
+            line-height: 160%;
+	    }
+
+	    #allan_a_martin #allan_a_martin-img {
+/*	        background: url('../images/wade-cropped.png') no-repeat;
+*/            width: 671px;
+            height: 989px;
+            position: absolute;
+            right: -80px;
+            top: 30px;
+	    }
+
+	    #allan_a_martin #allan_a_martin-link {
+	        position: absolute;
+            left: 72px;
+            top: 810px;
+        }
+
+    #jun_high_school {
+	    height: 897px;
+/*	    background: #2b2424 url('../images/bg-marquette.jpg') center center no-repeat fixed;*/
+		background: #220363;
+	    border-top: 7px solid #0d0d16;
+	}
+
+	    #jun_high_school #jun_high_school-img {
+/*	        background: url('../img/mystory/marquette-img.png') no-repeat;
+*/	        position: absolute;
+	        width: 652px;
+	        height: 947px;
+	        left: 400px;
+	    }
+
+	    #jun_high_school #jun_high_school-h6 {
+	        position: absolute;
+			color: #FFFFFF;
+			font: 120px abril-display, serif;
+			font-style: italic;
+			top: 0px;
+			left: 0px;
+			width: 670px;
+			height: 210px;
+			display: block;
+			margin-top: 40px;
+	    }
+
+			#jun_high_school #jun_high_school-h6 #high_line1-1 h6 {
+				margin: 0px;
+				position:absolute;
+				font-size: 140px;
+
+			}
+
+			#jun_high_school #jun_high_school-h6 #high_line1-2 h6 {
+				margin: 0px;
+				position:absolute;
+				font-style: normal;
+				left: 450px;
+			}
+
+			.chrome #jun_high_school #jun_high_school-h6 #high_line1-2 h6 {
+				top: 55px;
+			}
+
+			.gecko #jun_high_school #jun_high_school-h6 #high_line1-2 h6 {
+				top: 57px;
+			}
+
+			#jun_high_school #jun_high_school-h6 #high_line2 h6 {
+				margin: 0px;
+				position:absolute;
+				font-style: normal;
+				top: 140px;
+			}
+
+		#jun_high_school #jun_high_school-sub {
+		    position: absolute;
+            color: #E4DFDB;
+            font: 36px abril-display, serif;
+            font-weight: normal;
+            font-style: italic;
+            width: 500px;
+            left: 0px;
+			top: 300px;
+		}
+
+		#jun_high_school #jun_high_school-p {
+		    color: white;
+            position: absolute;
+            left: 0px;
+            font-family: 'Droid Serif', serif;
+            font-size: 18px;
+            line-height: 140%;
+            top: 550px;
+            width: 400px;
+        }
+
+        #jun_high_school #jun_high_school-link {
+            position: absolute;
+            top: 700px;
+            right: 14px;
+        }
+
+    #waterloo {
+		height: 900px;
+		background: #4a4944 url('../img/mystory/bg-beyond.jpg') center center no-repeat fixed;
+	    border-top: 7px solid #595959;
+	}
+	    #waterloo #waterloo-h6 {
+	        position: absolute;
+            color: white;
+            top: 10px;
+            margin: 0;
+            padding: 0;
+	    }
+
+            #waterloo #waterloo-h6 #waterloo-first h6 {
+            	font: 80px abril-fatface, serif;
+	            position: absolute;
+	            margin: 0px;
+				width: 100px;
+				height: 180px;
+				left: 720px;
+				top: 18px;
+            }
+
+            #waterloo #waterloo-h6 #waterloo-second h6 {
+            	font: 70px abril-display, serif;
+            	font-style: italic;
+	            position: absolute;
+	            margin: 0px;
+				width: 50px;
+				height: 180px;
+				top: 26px;
+				left: 915px;
+            }
+
+            .gecko #waterloo #waterloo-h6 #waterloo-second h6 {
+            	top: 33px;
+            }
+
+            #waterloo #waterloo-h6 #waterloo-third h6 {
+            	font: 150px abril-fatface, serif;
+	            position: absolute;
+	            margin: 0px;
+				width: 520px;
+				height: 180px;
+				top: 90px;
+				left: 170px;
+            }
+
+        #waterloo #waterloo-sub {
+	        position: absolute;
+            -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            font: 36px abril-display, serif;
+            color: #E4DFDB;
+            top: 250px;
+            font-style: italic;
+            width: 600px;
+            left: 370px;
+	    }
+
+	    #waterloo #waterloo-p1 p{
+	        position: absolute;
+            font: 18px 'Droid Serif', serif;
+            line-height: 140%;
+            color: #E4DFDB;
+            top: 450px;
+            left: 370px;
+            width: 600px;
+	    }
+
+		#waterloo #waterloo-p2 {
+	        position: absolute;
+            font: 16px purista-web, sans-serif;
+            color: #E4DFDB;
+            top: 700px;
+            left: 370px;
+            width: 300px;
+	    }
+
+	    #waterloo #waterloo-link {
+	        position: absolute;
+            bottom: 390px;
+	    }
+
+	    #waterloo #waterloo-img {
+	        position: absolute;
+            height: 1206px;
+            background: url('../img/mystory/wade-beyond.png') no-repeat;
+            bottom: 10px;
+			right: 0;
+            width: 391px;
+	    }
+
+	#jun_workforce {
+		height: 1252px;
+		background: #3b0300 url('../img/mystory/bg-beyond.jpg') center center no-repeat fixed;
+	    border-top: 7px solid #595959;
+	}
+	    #jun_workforce #jun_workforce-h6 {
+	        position: absolute;
+            color: white;
+            top: 10px;
+            margin: 0;
+            padding: 0;
+	    }
+
+            #jun_workforce #jun_workforce-h6 #jun_workforce-first h6 {
+            	font: 80px abril-fatface, serif;
+	            position: absolute;
+	            margin: 0px;
+				width: 520px;
+				height: 180px;
+				left: 370px;
+				top: 18px;
+            }
+
+            #jun_workforce #jun_workforce-h6 #jun_workforce-second h6 {
+            	font: 70px abril-display, serif;
+            	font-style: italic;
+	            position: absolute;
+	            margin: 0px;
+				width: 520px;
+				height: 180px;
+				top: 90px;
+				left: 400px;
+            }
+
+            #jun_workforce #jun_workforce-h6 #jun_workforce-third h6 {
+            	font: 150px abril-fatface, serif;
+	            position: absolute;
+	            margin: 0px;
+				width: 520px;
+				height: 180px;
+				top: 140px;
+				left: 20px;
+            }
+
+        #jun_workforce #jun_workforce-sub {
+	        position: absolute;
+            -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            font: 36px abril-display, serif;
+            color: #E4DFDB;
+            top: 280px;
+            font-style: italic;
+            text-align: justify;
+	    }
+
+	    #jun_workforce h5 {
+	    	font: 36px 'Droid Serif', serif;
+	    	color: #E4DFDB;
+	    }
+
+	    #jun_workforce p {
+	    	position: absolute;
+	    	top: 100px;
+	    }
+
+	    #jun_workforce #csdc {
+	    	position: absolute;
+            font: 18px 'Droid Serif', serif;
+            line-height: 140%;
+            color: #E4DFDB;
+            width: 600px;
+            top: 300px;
+            left: 0px;
+	    }
+
+		#jun_workforce #et{
+			position: absolute;
+            font: 18px 'Droid Serif', serif;
+            line-height: 140%;
+            color: #E4DFDB;
+            width: 600px;
+            top: 600px;
+            left: 0px;
+	    }
+
+		#jun_workforce #intuit {
+			position: absolute;
+            font: 18px 'Droid Serif', serif;
+            line-height: 140%;
+            color: #E4DFDB;
+            width: 600px;
+            top: 900px;
+            left: 0px;
+	    }
+
+	    #jun_workforce #jun_workforce-link {
+	        position: absolute;
+            bottom: 390px;
+	    }
+
+	    #jun_workforce #jun_workforce-img {
+	        position: absolute;
+            height: 1206px;
+            background: url('../img/mystory/wade-beyond.png') no-repeat;
+            bottom: 10px;
+			right: 0;
+            width: 391px;
+	    }
+
+/* =============================================================================
+   MY-STORY
+   ========================================================================== */
+#container #my-work {
+	float: left;
+	display: inline;
+}
+
+#container #my-work,
+#container #my-work #work-intro,
+#container #my-work #work-flick-em,
+#container #my-work #work-portable-n64,
+#container #my-work #work-toriizuka,
+#container #my-work #work-school,
+#container #my-work #work-future {
+	width: 100%;
+	margin: 0 auto;
+}
+
+	#container #my-work #work-intro #work-intro-inner {
+		width: 980px;
+		margin: 0 auto;
+		position: relative;
+		height: inherit;
+	}
+
+	#work-intro {
+		height: 600px;
+/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
+*/		background: #000;
+		border-top: 7px solid #0f0d0d;
+	}
+
+		#work-intro h6 {
+            font: 95px abril-fatface, serif;
+            color: #E4DFDB;
+            margin: 0 auto;
+            padding: 0;
+            position: absolute;
+            width: inherit;
+			height: 80px;
+			display: block;
+        }
+
+        	#work-intro #work-first,
+        	#work-intro #work-second {
+        		width: 100%;
+		        text-align:center;
+        	}
+
+        	#work-intro #work-first h6 {
+    			font-family: Georgia, serif;
+	    		font-size: 100px;
+	    		top: 10px;
+        	}
+
+        	#work-intro #work-second h6 {
+        		top:100px;
+		    	margin-top: 0px;
+		    	font: 130px abril-display, serif;
+		    	font-style: italic;
+        	}
+
+        #work-intro #work-intro-img {
+        	margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 200px;
+            right: -70px;
+            width: 613px;
+            height: 840px;
+/*            background: url('../images/wade-dwyanewade.png') transparent no-repeat;
+*/		}
+
+		#work-intro #work-intro-sub {
+		    font: 29px abril-display, serif;
+		    font-weight: normal;
+		    font-style: italic;
+		    color: #e4dfdb;
+		    margin: 0;
+		    padding: 0;
+		    position: absolute;
+		    top: 230px;
+            left: 0px;
+		}
+
+		    #work-intro #work-intro-sub p {
+		        position: relative;
+		        -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				display: block;
+				width: 800px;
+				height: 120px;
+		    }
+
+		        #work-intro #work-intro-sub p span {
+    		        position: absolute;
+    		    }
+
+    		        #work-intro #work-intro-sub p .work-intro-span-1 { top: 0px;  }
+                    #work-intro #work-intro-sub p .work-intro-span-2 { top: 35px; }
+                    #work-intro #work-intro-sub p .work-intro-span-3 { top: 70px; }
+
+        #work-intro #work-intro-p {
+          	font-family: 'Droid Serif', serif;
+			font-size: 18px;
+            font-weight: normal;
+            color: #e4dfdb;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 380px;
+            left: 0px;
+            width: 450px;
+            line-height: 150%;
+            text-align: justify;
+        }
+
+            #work-intro #work-intro-p p {
+                position: relative;
+		        -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            }
+
+    #container #my-work #work-flick-em #work-flick-em-inner {
+		width: 980px;
+		margin: 0 auto;
+		position: relative;
+		height: inherit;
+	}
+
+	#work-flick-em {
+		height: 600px;
+/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
+*/		background: #474747;
+		border-top: 7px solid #0f0d0d;
+	}
+
+		#work-flick-em h6 {
+            font: 100px abril-display, serif;
+            font-style: bold;
+            color: #E4DFDB;
+            margin: 0 auto;
+            padding: 0;
+            position: absolute;
+            width: inherit;
+			height: 80px;
+			display: block;
+			top: 30px;
+        }
+
+        #work-flick-em #work-flick-em-img {
+        	margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 200px;
+            right: -70px;
+            width: 613px;
+            height: 840px;
+/*            background: url('../images/wade-dwyanewade.png') transparent no-repeat;
+*/		}
+
+		#work-flick-em #work-flick-em-sub {
+		    font: 29px abril-display, serif;
+		    font-weight: normal;
+		    font-style: italic;
+		    color: #e4dfdb;
+		    margin: 0;
+		    padding: 0;
+		    position: absolute;
+		    top: 120px;
+            left: 0px;
+		}
+
+		    #work-flick-em #work-flick-em-sub p {
+		        position: relative;
+		        -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				display: block;
+				width: 800px;
+				height: 120px;
+		    }
+
+        #work-flick-em #work-flick-em-p {
+          	font-family: 'Droid Serif', serif;
+			font-size: 18px;
+            font-weight: normal;
+            color: #e4dfdb;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 200px;
+            left: 0px;
+            width: 450px;
+            line-height: 150%;
+            text-align: justify;
+        }
+
+            #work-flick-em #work-flick-em-p p {
+                position: relative;
+		        -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            }
+
+        #work-flick-em #work-flick-em-status {
+        	position: absolute;
+        	top: 380px;
+        	font-family: 'Droid Serif', serif;
+        	font-size: 18px;
+        	color:white;
+        }
+
+	        #work-flick-em #work-flick-em-status p .work-flick-em-status-title {
+	        	font-style:italic;
+	        }
+
+	        #work-flick-em #work-flick-em-status p .work-flick-em-status-stat {
+	        	
+	        }
+
+	#container #my-work #work-portable-n64 #work-portable-n64-inner {
+		width: 980px;
+		margin: 0 auto;
+		position: relative;
+		height: inherit;
+	}
+
+	#work-portable-n64 {
+		height: 600px;
+/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
+*/		background: #0c3707;
+		border-top: 7px solid #0f0d0d;
+	}
+
+		#work-portable-n64 h6 {
+            font: 100px abril-display, serif;
+            font-style: bold;
+            color: #E4DFDB;
+            margin: 0 auto;
+            padding: 0;
+            position: absolute;
+            width: inherit;
+			height: 80px;
+			display: block;
+			top: 30px;
+        }
+
+        #work-portable-n64 #work-portable-n64-img {
+        	margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 200px;
+            right: -70px;
+            width: 613px;
+            height: 840px;
+/*            background: url('../images/wade-dwyanewade.png') transparent no-repeat;
+*/		}
+
+		#work-portable-n64 #work-portable-n64-sub {
+		    font: 29px abril-display, serif;
+		    font-weight: normal;
+		    font-style: italic;
+		    color: #e4dfdb;
+		    margin: 0;
+		    padding: 0;
+		    position: absolute;
+		    top: 120px;
+            left: 0px;
+		}
+
+		    #work-portable-n64 #work-portable-n64-sub p {
+		        position: relative;
+		        -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				display: block;
+				width: 800px;
+				height: 120px;
+		    }
+
+        #work-portable-n64 #work-portable-n64-p {
+          	font-family: 'Droid Serif', serif;
+			font-size: 18px;
+            font-weight: normal;
+            color: #e4dfdb;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 250px;
+            left: 0px;
+            width: 450px;
+            line-height: 150%;
+            text-align: justify;
+        }
+
+            #work-portable-n64 #work-portable-n64-p p {
+                position: relative;
+		        -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            }
+
+        #work-portable-n64 #work-portable-n64-status {
+        	position: absolute;
+        	top: 450px;
+        	font-family: 'Droid Serif', serif;
+        	font-size: 18px;
+        	color:white;
+        }
+
+	        #work-portable-n64 #work-portable-n64-status p .work-portable-n64-status-title {
+	        	font-style:italic;
+	        }
+
+	        #work-portable-n64 #work-portable-n64-status p .work-portable-n64-status-stat {
+	        	
+	        }
+
+	#container #my-work #work-toriizuka #work-toriizuka-inner {
+		width: 980px;
+		margin: 0 auto;
+		position: relative;
+		height: inherit;
+	}
+
+	#work-toriizuka {
+		height: 600px;
+/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
+*/		background: #00206c;
+		border-top: 7px solid #0f0d0d;
+	}
+
+		#work-toriizuka h6 {
+            font: 100px abril-display, serif;
+            font-style: bold;
+            color: #E4DFDB;
+            margin: 0 auto;
+            padding: 0;
+            position: absolute;
+            width: inherit;
+			height: 80px;
+			display: block;
+			top: 30px;
+        }
+
+        #work-toriizuka #work-toriizuka-img {
+        	margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 200px;
+            right: -70px;
+            width: 613px;
+            height: 840px;
+/*            background: url('../images/wade-dwyanewade.png') transparent no-repeat;
+*/		}
+
+		#work-toriizuka #work-toriizuka-sub {
+		    font: 29px abril-display, serif;
+		    font-weight: normal;
+		    font-style: italic;
+		    color: #e4dfdb;
+		    margin: 0;
+		    padding: 0;
+		    position: absolute;
+		    top: 120px;
+            left: 0px;
+		}
+
+		    #work-toriizuka #work-toriizuka-sub p {
+		        position: relative;
+		        -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				display: block;
+				width: 800px;
+				height: 120px;
+		    }
+
+        #work-toriizuka #work-toriizuka-p {
+          	font-family: 'Droid Serif', serif;
+			font-size: 18px;
+            font-weight: normal;
+            color: #e4dfdb;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 250px;
+            left: 0px;
+            width: 450px;
+            line-height: 150%;
+            text-align: justify;
+        }
+
+            #work-toriizuka #work-toriizuka-p p {
+                position: relative;
+		        -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            }
+
+        #work-toriizuka #work-toriizuka-status {
+        	position: absolute;
+        	top: 450px;
+        	font-family: 'Droid Serif', serif;
+        	font-size: 18px;
+        	color:white;
+        }
+
+	        #work-toriizuka #work-toriizuka-status p .work-toriizuka-status-title {
+	        	font-style:italic;
+	        }
+
+	        #work-toriizuka #work-toriizuka-status p .work-toriizuka-status-stat {
+	        	
+	        }
+
+	#container #my-work #work-school #work-school-inner {
+		width: 980px;
+		margin: 0 auto;
+		position: relative;
+		height: inherit;
+	}
+
+	#work-school {
+		height: 900px;
+/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
+*/		background: #42005c;
+		border-top: 7px solid #0f0d0d;
+	}
+
+		#work-school h6 {
+            font: 100px abril-display, serif;
+            font-style: bold;
+            color: #E4DFDB;
+            margin: 0 auto;
+            padding: 0;
+            position: absolute;
+            width: inherit;
+			height: 80px;
+			display: block;
+			top: 30px;
+        }
+
+        #work-school #work-school-img {
+        	margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 200px;
+            right: -70px;
+            width: 613px;
+            height: 840px;
+/*            background: url('../images/wade-dwyanewade.png') transparent no-repeat;
+*/		}
+
+		#work-school #work-school-sub {
+		    font: 29px abril-display, serif;
+		    font-weight: normal;
+		    font-style: italic;
+		    color: #e4dfdb;
+		    margin: 0;
+		    padding: 0;
+		    position: absolute;
+		    top: 120px;
+            left: 0px;
+		}
+
+		    #work-school #work-school-sub p {
+		        position: relative;
+		        -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				display: block;
+				width: 800px;
+				height: 120px;
+		    }
+
+        #work-school #work-school-p {
+          	font-family: 'Droid Serif', serif;
+			font-size: 18px;
+            font-weight: normal;
+            color: #e4dfdb;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 250px;
+            left: 0px;
+            width: 450px;
+            line-height: 150%;
+            text-align: justify;
+            position: relative;
+	        -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+			-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        }
+
+            #work-school #work-school-p #work-school-1 {
+            	position: absolute;
+            	top: 30px;
+            }
+
+            #work-school #work-school-p #work-school-2 {
+            	position: absolute;
+            	top: 300px;
+            }
+
+            	#work-school #work-school-p .work-school-title{
+	            	font: italic 29px abril-display,serif;
+	            }
+
+	            #work-school #work-school-p .work-school-class{
+	            	font-weight: bold;
+	            }
+
+	            #work-school #work-school-p .work-school-desc{
+	            	
+	            }
+
+        #work-school #work-school-status {
+        	position: absolute;
+        	top: 750px;
+        	font-family: 'Droid Serif', serif;
+        	font-size: 18px;
+        	color:white;
+        }
+
+	        #work-school #work-school-status p .work-school-status-title {
+	        	font-style:italic;
+	        }
+
+	        #work-school #work-school-status p .work-school-status-stat {
+	        	
+	        }
+
+	#container #my-work #work-future #work-future-inner {
+		width: 980px;
+		margin: 0 auto;
+		position: relative;
+		height: inherit;
+	}
+
+	#work-future {
+		height: 670px;
+/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
+*/		background: #454656;
+		border-top: 7px solid #0f0d0d;
+	}
+
+		#work-future h6 {
+            font: 100px abril-display, serif;
+            font-style: bold;
+            color: #E4DFDB;
+            margin: 0 auto;
+            padding: 0;
+            position: absolute;
+            width: inherit;
+			height: 80px;
+			display: block;
+			top: 30px;
+        }
+
+        #work-future #work-future-img {
+        	margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 200px;
+            right: -70px;
+            width: 613px;
+            height: 840px;
+/*            background: url('../images/wade-dwyanewade.png') transparent no-repeat;
+*/		}
+
+		#work-future #work-future-sub {
+		    font: 29px abril-display, serif;
+		    font-weight: normal;
+		    font-style: italic;
+		    color: #e4dfdb;
+		    margin: 0;
+		    padding: 0;
+		    position: absolute;
+		    top: 120px;
+            left: 0px;
+		}
+
+		    #work-future #work-future-sub p {
+		        position: relative;
+		        -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				display: block;
+				width: 800px;
+				height: 120px;
+		    }
+
+        #work-future #work-future-p {
+          	font-family: 'Droid Serif', serif;
+			font-size: 18px;
+            font-weight: normal;
+            color: #e4dfdb;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 250px;
+            left: 0px;
+            width: 450px;
+            line-height: 150%;
+            text-align: justify;
+        }
+
+            #work-future #work-future-p #work-future-1 {
+            	position: absolute;
+            	top: 10px;
+            }
+
+            #work-future #work-future-p #work-future-2 {
+            	position: absolute;
+            	top: 200px;
+            }
+
+            	#work-future #work-future-p .work-future-title{
+	            	font: italic 29px abril-display,serif;
+	            }
+
+	            #work-future #work-future-p .work-future-desc{
+	            	
+	            }
+
+        #work-future #work-future-status {
+        	position: absolute;
+        	top: 570px;
+        	font-family: 'Droid Serif', serif;
+        	font-size: 18px;
+        	color:white;
+        }
+
+	        #work-future #work-future-status p .work-future-status-title {
+	        	font-style:italic;
+	        }
+
+	        #work-future #work-future-status p .work-future-status-stat {
+	        	
+	        }
+
+
+#container #contact-section {
+	float: left;
+	display: inline;
+}
+
+#container #contact-section,
+#container #contact-section #contact-me {
+	width: 100%;
+	margin: 0 auto;
+}
+
+	#container #contact-section #contact-me #contact-me-inner {
+		width: 980px;
+		margin: 0 auto;
+		position: relative;
+		height: inherit;
+	}
+
+	#contact-me {
+		height: 850px;
+/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
+*/		background: #000;
+		border-top: 7px solid #0f0d0d;
+	}
+
+		#contact-me h6 {
+            font: 143px abril-display, serif;
+            color: #FFF;
+            font-style: italic;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 70px;
+        }
+
+        #contact-me #contact-me-p {
+        	position: absolute;
+        	top: 250px;
+        	font-family: 'Droid Serif', serif;
+        	color: white;
+        	font-size: 18px;
+            font-weight: normal;
+        }
+
+
+
+/* =============================================================================
+   PDF
+   ========================================================================== */
+#pdf-section #pdf-area object{
+	width: 100%;
+	height: 1200px;
+}
