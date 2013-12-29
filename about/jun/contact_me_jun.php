@@ -15,19 +15,23 @@
 		<section id="contact-section">
 			<div id="contact-me">
 				<div id="contact-me-inner">
-					<h6> Jun Mark Torii </h6>
-					<div id="contact-me-img"> </div>
+					<h6> Contact Me </h6>
 	                <div id="contact-me-p">
 	                	<p>
-	                	
-							<script type="IN/MemberProfile" data-id="http://www.linkedin.com/in/junmarktorii4" data-format="inline" data-related="false"></script>
-	                		
-<!-- 	                		<span><b>LinkedIn:</b> http://www.linkedin.com/pub/jun-mark-torii/67/150/790</span>
- -->	                	</p>
+	                		Feel free to connect with me in the following sources:
+	                	</p>
+					</div>
+					<div id="contact-me-sources">
+						<a href="http://www.linkedin.com/in/junmarktorii4"> 
+							<img src="http://toriizuka.com/images/linkedin-thumb.png">
+						</a>
+
+						<a href="https://github.com/JMtorii"> 
+							<img src="http://toriizuka.com/images/github-thumb.png">
+						</a>
 					</div>
 				</div>
 			</div>
-
 		</section>
         
           
