@@ -76,7 +76,7 @@
 					</div>
 				</li>
 				<li>
-					<a href="#">
+					<a href="http://toriizuka.com/about/about.php">
 						<img src="" alt=""/>
 						<span class="sdt_active"></span>
 						<span class="sdt_wrap">

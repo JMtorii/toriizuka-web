@@ -534,7 +534,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 	#juntorii {
 		height: 850px;
-/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
+/*	 	background: #000 url('../images/jun-portrait.png') center center no-repeat fixed;
 */		background: #000;
 		border-top: 7px solid #0f0d0d;
 	}
@@ -1724,6 +1724,46 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
            		border: 5px solid #7e7e7e;
         	}
 
+/* =============================================================================
+   ABOUT
+   ========================================================================== */
+#about-section {
+	margin: 0 auto;
+	width: 100%;
+	float: left;
+	display: inline;
+	background-color: #CBCAC8;
+}
+
+	#about-main {
+		margin: 0 auto;
+		width: 100%;
+		height: 600px;		
+	}
+
+		#about-main #about-main-inner {
+			height: inherit;
+			margin: 0 auto;
+			position: relative;
+			width: 980px;
+			padding: 20px;
+		}
+
+			#about-main-inner h6 {
+/*				color: #FFFFFF;
+*/				font: 120px abril-display, serif;
+				font-style: italic;
+				margin: 0px;
+		    }
+
+		    #about-main-inner h3.about-question {
+		    	margin: 0px;
+		    }
+
+		    #about-main-inner p.about-answer {
+		    	margin-top: 0px;
+		    	margin-bottom: 30px;
+		    }
 
 
 /* =============================================================================
