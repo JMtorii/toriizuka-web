@@ -53,6 +53,9 @@
 							<span class="work-flick-em-status-stat">On hiatus</span>
 						</p>
 					</div>
+					<div id="flick-em-img">
+<!-- 						<img src="http://toriizuka.com/images/question.png">
+ -->					</div>
 				</div>
 			</div>
 
@@ -92,6 +95,9 @@
 							<span class="work-toriizuka-status-title">Status: </span>
 							<span class="work-toriizuka-status-stat">In progress</span>
 						</p>
+					</div>
+					<div id="toriizuka-img">
+						<img src="http://toriizuka.com/images/toriizuka.jpg">
 					</div>
 				</div>
 			</div>

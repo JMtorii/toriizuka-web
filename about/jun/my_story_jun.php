@@ -35,7 +35,11 @@
 			<div id="juntorii">
 				<div id="juntorii-inner">
 					<h6> Jun Mark Torii </h6>
-					<div id="juntorii-img"> </div>
+					
+					<div id="juntorii-img">
+						<img src="http://toriizuka.com/images/jun-crossed.gif">
+					</div>
+
                  	<div id="juntorii-sub">
 	                    <p>
 		                    <span class="juntorii-span-1">Originally from a visual arts and music background,</span>
@@ -82,10 +86,15 @@
 	                <div id="jun_high_school-p">
 						<p>After an enjoyable experience at Allan A. Martin, Mark enrolled in the IBT program at Gordon Graydon Memorial Secondary School for his first two high school years. He later switched schools to have a better engineering learning experience. Mark graduated from Port Credit Secondary School with a Grade 12 university admission average of 90.3.</p>
 	                </div>
-	                 <div id="jun_high_school-img"></div>
-<!--                  <div id="jun_high_school-link">
-                      <a href="#beyond" class="box box-big box-bottom">Next: Brand Wade</a>
-                  </div> -->
+
+	                <div id="jun_high_school-img1">
+	                	<img src="http://toriizuka.com/images/graydonlogo.png">
+	                </div>
+
+	                <div id="jun_high_school-img2">
+	                	<img src="http://toriizuka.com/images/portcreditlogo.png">
+	                </div>
+
 				</div>
 			</div>
 
@@ -106,10 +115,10 @@
 	                <div id="waterloo-p2">
 	                	<p></p>
 	                </div>
-	                <div id="waterloo-img"></div>
-<!-- 	                <div id="waterloo-link">
-	                    <a href="#community" class="box box-big box-bottom">Next: Community</a>
-	                </div> -->
+	                <div id="waterloo-img">
+	                	<img src="http://toriizuka.com/images/waterloologo.png">
+	                </div>
+
 				</div>
 			</div>
 
@@ -120,6 +129,19 @@
 						<div id="jun_workforce-second"><h6>in the</h6></div>
 						<div id="jun_workforce-third"><h6>WORKFORCE</h6></div>
 	                </div>
+
+	                <div id="csdc-img">
+	                	<img src="http://toriizuka.com/images/csdc.png">
+	                </div>
+
+	                <div id="employtouch-img">
+	                	<img src="http://toriizuka.com/images/employtouch.png">
+	                </div>
+
+	                <div id="intuit-img">
+	                	<img src="http://toriizuka.com/images/intuit.png">
+	                </div>
+
 	                <div id="csdc">
 	                	<h5>CSDC Systems Inc.</h5>
 	                	<p>As a <b><i>Technical Consultant</i></b>, Mark Torii implemented new web-based products to create demos for potential clients. Clients included the city of Massachusetts, Ontario College of Technology, and Saskatchewan Liquor and Trades.</p>
