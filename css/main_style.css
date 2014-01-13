@@ -39,28 +39,7 @@ nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0
 
 /* =============================================================================
    Header
-   ========================================================================== */
-   
-.col_1,  
-.col_2 {  
-    display:inline;  
-    float: left;  
-    position: relative;  
-    margin-left: 5px;  
-    margin-right: 5px;  
-}
-
-.col_1 {width:150px;}  
-.col_2 {width:270px;} 
-
-.jun_blue {
-	/*background-color: #66CCFF;*/
-}
-
-.agnes_pink {
-/*	background-color: #FFC0CB;*/
-}
-   
+   ========================================================================== */ 
 
 #container #top {
     width: 100%;
@@ -226,89 +205,6 @@ nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0
 				ul.sdt_menu li div.sdt_box a:hover{
 				    color:#fff;
 				}
-/*		
-			#container #top #top-inner nav a {
-				font: 15px purista-web, sans-serif;
-				color: #4A4237;
-				padding: 10px 12px 4px 12px;
-              	text-decoration: none;
-              	text-transform: uppercase;
-              	letter-spacing: 1px;
-              	-webkit-transition: all .1s ease-in-out;
-              	-moz-transition: all .1s ease-in-out;
-              	-o-transition: all .1s ease-in-out;
-              	transition: all .1s ease-in-out;
-              	text-decoration: none;
-              	float: left;
-			}
-			
-			#container #top #top-inner nav a:visited {
-				color: #4a4237;
-           }
-		   
-			#container #top #top-inner nav a:hover{ 
-				color: #7a6e5e; 
-           }
-		   
-			#container #top #top-inner nav a:focus { 
-				outline: thin dotted; 
-			}
-			
-			#container #top #top-inner nav a:hover, a:active { 
-				outline: 0; 
-			}
-			
-				#container #top #top-inner nav a.withSub {
-					padding-right: 28px;
-                 	background: url('../images/down-arrow.gif') no-repeat right 50%;
-				}*/
-		
-/*		#container #top #top-inner nav ul {}
-*/		
-/*		#container #top #top-inner nav ul li {
-			position: relative;
-           	float: left;
-           	display: block;
-			z-index: 6700;
-           	-webkit-transition: all .2s;
-           	-moz-transition: all .2s;
-           	-o-transition: all .2s;
-           	transition: all .2s;
-		}*/
-			
-			/* dropdown */
-/*			#container #top #top-inner nav ul li div.dropdown_2columns {
-            	margin:4px auto;  
-			    float:left;  
-			    position:absolute;  
-			    left:-999em; 
-			    text-align:left;  
-			    padding:10px 5px 10px 5px;  
-			    border:5px solid #777777; 
-			    width: 320px;
-			    -moz-border-radius: 10px;  
-			    -webkit-border-radius: 10px;  
-			    border-radius: 10px;
-			}*/
-
-			/* check prev commented out section */
-/*			#container #top #top-inner nav ul li:hover div.dropdown_2columns {
-				left: -80px;
-				top: 25px;
-				background-color: #E0E0E0;
-			}*/
-
-/*			#container #top #top-inner nav ul li h2 {
-				font-family:Arial, Helvetica, sans-serif;
-    			line-height:10px;  
-    			text-align:center;  
-				font-size:21px;  
-    			font-weight:100;  
-    			letter-spacing:-1px;  
-    			margin:7px 0 14px 0;  
-    			padding-bottom:14px;  
-    			border-bottom:1px solid #666666; 
-			}*/
 
 
 /* =============================================================================
@@ -316,77 +212,53 @@ nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0
    ========================================================================== */
 #container #splash {
 	width: 100%;
-	height: 600px;
+	height: 450px;
 	background: rgb(203,202,200);
 	border-bottom: 7px solid #d4d0cc;
 }
 	#container #splash #splash-inner {
-		width: 100%;
-		height: 600px;
-		position: absolute;
+		width: 980px;
+		height: inherit;
+		position: relative;
+		margin: 0 auto;
 	}
 		
-		#container #splash #splash-inner #splash-inner-inner {
-			width: 1100px;
-			height: 570px;
-			margin: 30px auto;
-
+		#container #splash #splash-inner a {
+			background-size: 100% auto;
+			background-position: left top;
+			background-repeat: no-repeat;
+			width: 980px;
+			height: 150px;
+			display: block;
+			position: absolute;
 		}
-			#container #splash #splash-inner #splash-inner-inner .splash-box {
-				display: block;
-				float:left;	
-				width:513px;
-				height:inherit;
-				margin:0px 20px 20px 0px;
-				border: 6px solid;
-				border-radius: 20px;
-				-webkit-transition: all .1s ease-in-out;
-              	-moz-transition: all .1s ease-in-out;
-              	-o-transition: all .1s ease-in-out;
-              	transition: all .1s ease-in-out;
-              	box-shadow:2px 2px black; 
+
+		#container #splash #splash-inner #jun-link a {
+			background-image: url('../images/jun-main-grey.gif');
+			top: 50px;
+			/*left: 100px;*/
+		}
+
+		#container #splash #splash-inner #agnes-link a {
+			background-image: url('../images/agnes-main-grey.gif');
+			position: absolute;
+			top: 230px;
+/*			left: 100px;
+*/		}
+
+/*			#container #splash #splash-inner img {
+				width:1000px;
+				height: auto;
+			}*/
+
+			#container #splash #splash-inner #jun-link a:hover {
+				background-image: url('../images/jun-main.gif') ;
 			}
 
-			#container #splash #splash-inner #splash-inner-inner #splash-agnes {
-				background-color: rgb(223,217,208);
+			#container #splash #splash-inner #agnes-link a:hover {
+				background-image: url('../images/agnes-main.gif') ;
 			}
-
-			#container #splash #splash-inner #splash-inner-inner #splash-jun {
-				background-color: rgb(223,217,208);
-			}
-
-			#container #splash #splash-inner #splash-inner-inner .splash-box:hover {
-				zoom: 1;
-				-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-				filter: alpha(opacity=80);
-				-moz-opacity:0.8;
-				-khtml-opacity: 0.8;
-	           	opacity: 0.8;
-			}
-				#container #splash #splash-inner #splash-inner-inner .name {
-					opacity: 0.2;
-					padding: 0px 20px 0px 20px;
-					color: black;
-				}
-
-					#container #splash #splash-inner #splash-inner-inner .name .name_first {
-
-						font: italic 120px abril-display,serif;
-					}
-
-					#container #splash #splash-inner #splash-inner-inner .name .name_middle {
-						font: italic 120px abril-display,serif;
-						margin-top:-30px;
-						margin-bottom:-30px;
-
-					}
-
-					#container #splash #splash-inner #splash-inner-inner .name .name_last {
-						font: italic bold 120px abril-display,serif;
-						text-transform: uppercase;
-					}
 				
-
 
 /* =============================================================================
    Footer
@@ -890,7 +762,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 	#jun_workforce {
 		height: 1252px;
 /*		background: #3b0300 url('../images/workspace.jpg') center center no-repeat fixed;
-*/		background-color: #003300;
+*/		background-color: #292929;
 	    border-top: 7px solid #595959;
 	}
 	    #jun_workforce #jun_workforce-h6 {
