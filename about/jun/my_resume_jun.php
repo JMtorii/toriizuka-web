@@ -14,7 +14,7 @@
 		<!-- ------------------- SPLASH ----------------------- -->
 		<section id="pdf-section">
 			<div id="pdf-area">
-				<object data="2B_Jun_Torii_Resume.pdf" type="application/pdf" width="500" height="500">
+				<object data="Jun_Mark_Torii-resume.pdf" type="application/pdf" width="500" height="500">
  				</object>
 			</div>
 		</section>
