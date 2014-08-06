@@ -386,8 +386,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 #container #my-story #allan_a_martin,
 #container #my-story #jun_high_school,
 #container #my-story #waterloo,
-#container #my-story #jun_workforce/*,
-#container #my-story #jun_personal_work */{
+#container #my-story #jun_workforce,
+#container #my-story #agnesiizuka {
 	width: 100%;
 	margin: 0 auto;
 }
@@ -396,7 +396,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 	#container #my-story #allan_a_martin #allan_a_martin-inner,
 	#container #my-story #jun_high_school #jun_high_school-inner,
 	#container #my-story #waterloo #waterloo-inner,
-	#container #my-story #jun_workforce #jun_workforce-inner/*,
+	#container #my-story #jun_workforce #jun_workforce-inner,
+	#container #my-story #agnesiizuka #agnesiizuka-inner/*,
 	#container #my-story #jun_personal_work #jun_personal_work-inner*/ {
 		width: 980px;
 		margin: 0 auto;
@@ -894,8 +895,97 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 		        height: auto;
 		    }
 
+/* Agnes specific */
+	#agnesiizuka {
+		height: 850px;
+	 	/*background: url('../images/jun_main_background.jpg') center center no-repeat fixed;*/
+	 	background-color: #FFFFFF;
+		border-top: 7px solid #0f0d0d;
+	}
+
+		#agnesiizuka h6 {
+            font: 130px abril-display, serif;
+            color: #000000;
+            font-style: italic;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 70px;
+        }
+
+        #agnesiizuka #agnesiizuka-img {
+        	position: absolute;
+        	left: 490px;
+        	top: 220px;
+		}
+
+			#agnesiizuka img {
+				width: 420px;
+				height: auto;
+			}
+
+		#agnesiizuka #agnesiizuka-sub {
+		    font: 29px abril-display, serif;
+		    font-weight: normal;
+		    font-style: italic;
+		    color: #000000;
+		    margin: 0;
+		    padding: 0;
+		    position: absolute;
+		    top: 200px;
+            left: 0px;
+		}
+
+		    #agnesiizuka #agnesiizuka-sub p {
+		        position: relative;
+		        -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+				display: block;
+				width: 700px;
+				height: 120px;
+		    }
+
+		        #agnesiizuka #agnesiizuka-sub p span {
+    		        position: absolute;
+    		    }
+
+    		        #agnesiizuka #agnesiizuka-sub p .agnesiizuka-span-1 { top: 0px;  }
+                    #agnesiizuka #agnesiizuka-sub p .agnesiizuka-span-2 { top: 35px; }
+                    #agnesiizuka #agnesiizuka-sub p .agnesiizuka-span-3 { top: 70px; }
+/*                    #juntorii #juntorii-sub p .juntorii-span-4 { top: 105px; }
+                    #juntorii #juntorii-sub p .juntorii-span-5 { top: 140px; }*/
+
+        #agnesiizuka #agnesiizuka-p {
+          	font-family: 'Droid Serif', serif;
+			font-size: 18px;
+            font-weight: normal;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 380px;
+            left: 0px;
+            width: 380px;
+            line-height: 150%;
+            text-align: justify;
+        }
+
+            #agnesiizuka #agnesiizuka-p p {
+                position: relative;
+		        -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+            }
+
+        #agnesiizuka #agnesiizuka-link {
+            position: absolute;
+            top: 670px;
+            left: 480px;
+        }
+
 /* =============================================================================
-   MY-STORY
+   MY-WORK
    ========================================================================== */
 #container #my-work {
 	float: left;
