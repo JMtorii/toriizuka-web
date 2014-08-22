@@ -69,7 +69,7 @@
 						</span>
 					</a>
 					<div class="sdt_box">
-						<a href="#">My Story</a>
+						<a href="http://toriizuka.com/about/agnes/my_story_agnes.php">My Story</a>
 						<a href="#">My Work</a>
 						<a href="http://toriizuka.com/about/agnes/my_resume_agnes.php">My Resume</a>
 						<a href="#">Contact Me</a>
