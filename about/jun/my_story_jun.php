@@ -142,6 +142,10 @@
 	                	<img src="http://toriizuka.com/images/intuit.png">
 	                </div>
 
+	                <div id="lumos-img">
+	                	<img src="http://toriizuka.com/images/lumos.jpg">
+	                </div>
+
 	                <div id="csdc">
 	                	<h5>CSDC Systems Inc.</h5>
 	                	<p>As a <b><i>Technical Consultant</i></b>, Mark Torii implemented new web-based products to create demos for potential clients. Clients included the city of Massachusetts, Ontario College of Technology, and Saskatchewan Liquor and Trades.</p>
@@ -153,6 +157,10 @@
                 	<div id="intuit">
 	                	<h5>Intuit Inc.</h5>
 	                	<p>Purely as a <b><i>Software Developer</i></b>, Mark Torii helped develop the ProFile Connect native mobile applications for both Android and iOS.</p>
+                	</div>
+                	<div id="lumos">
+	                	<h5>Lumos Labs</h5>
+	                	<p>As a <b><i>Web Games Engineer</i></b>, Mark Torii helped begin the creation of the redesign of Word Bubbles Rising, and assisted with Korean and Portuguese localization.</p>
                 	</div>
 	                <div id="jun_workforce-img"></div>
 <!-- 	                <div id="jun_workforce-link">
