@@ -520,20 +520,21 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 		    }
 
 		    	#allan_a_martin #mid_line1 h6{
+		    		top:60px;
 		    		font-family: Georgia, serif;
 		    		font-size: 160px;
 		    		bottom: 0px;
 			    }
 
 			    #allan_a_martin #mid_line2 h6 {
-			    	top:150px;
+			    	top:190px;
 			    	margin-top: 0px;
 			    	font: 80px abril-display, serif;
 			    	font-style: italic;
 			    }
 
 			    #allan_a_martin #mid_line3 h6 {
-			    	top:250px;
+			    	top:290px;
 			    	margin-top: -50px;
 			    	font-family: Palatino Linotype, serif;
 			    	font-size:80px;
