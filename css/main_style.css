@@ -667,7 +667,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
         }
 
     #waterloo {
-		height: 900px;
+		height: 700px;
 		background: #003040 url('../images/waterloo-full.jpg') center center no-repeat fixed;
 	    border-top: 7px solid #595959;
 	}
@@ -753,7 +753,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 	    #waterloo #waterloo-img {
 	        position: absolute;
-	        top: 400px;
+	        top: 300px;
 	        left: 0px;
 	    }
 	    	#waterloo #waterloo-img img {
