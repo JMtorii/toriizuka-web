@@ -761,7 +761,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 	    	}
 
 	#jun_workforce {
-		height: 1252px;
+		height: 1400px;
 /*		background: #3b0300 url('../images/workspace.jpg') center center no-repeat fixed;
 */		background-color: #292929;
 	    border-top: 7px solid #595959;
@@ -857,6 +857,16 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
             left: 0px;
 	    }
 
+	    #jun_workforce #lumos {
+			position: absolute;
+            font: 18px 'Droid Serif', serif;
+            line-height: 140%;
+            color: #E4DFDB;
+            width: 500px;
+            top: 1150px;
+            left: 0px;
+	    }
+
 	    #jun_workforce #jun_workforce-link {
 	        position: absolute;
             bottom: 390px;
@@ -891,7 +901,18 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 	    }
 
 	    	#jun_workforce #intuit-img img {
-		        width: 300px;
+		        width: 400px;
+		        height: auto;
+		    }
+
+		#jun_workforce #lumos-img {
+	        position: absolute;
+	        top: 1200px;
+	        left: 600px;
+	    }
+
+	    	#jun_workforce #lumos-img img {
+		        width: 150px;
 		        height: auto;
 		    }
 
