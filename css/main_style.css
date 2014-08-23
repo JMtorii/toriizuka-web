@@ -764,9 +764,9 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 	#jun_workforce {
 		height: 1400px;
-/*		background: #3b0300 url('../images/workspace.jpg') center center no-repeat fixed;
-*/		background-color: #292929;
-	    border-top: 7px solid #595959;
+		background: #3b0300 url('../images/workforce.jpg') center center no-repeat fixed;
+/*		background-color: #292929;
+*/	    border-top: 7px solid #595959;
 	}
 	    #jun_workforce #jun_workforce-h6 {
 	        position: absolute;
