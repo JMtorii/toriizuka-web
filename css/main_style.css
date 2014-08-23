@@ -213,7 +213,8 @@ nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0
 #container #splash {
 	width: 100%;
 	height: 450px;
-	background: rgb(203,202,200);
+	background: url('../images/toriizuka-home.png') no-repeat scroll 50% 0% #FFFFFF;
+	background-size: 100% 100%;
 	border-bottom: 7px solid #d4d0cc;
 }
 	#container #splash #splash-inner {
@@ -1657,6 +1658,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 #container #contact-section {
 	float: left;
 	display: inline;
+	background: url('../images/toriizuka-home.png') no-repeat scroll 50% 0% #FFFFFF;
+	background-size: 100% 100%;
 }
 
 /*#container #splash #splash-inner {
@@ -1687,8 +1690,6 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 	#contact-me {
 		height: 550px;
-/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
-*/		background: #CBCAC8;
 		border-top: 7px solid #0f0d0d;
 		color: #000000;
 	}
@@ -1746,7 +1747,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 	width: 100%;
 	float: left;
 	display: inline;
-	background-color: #CBCAC8;
+	background: url('../images/toriizuka-home.png') no-repeat scroll 50% 0% #FFFFFF;
+	background-size: 100% 100%;
 }
 
 	#about-main {
