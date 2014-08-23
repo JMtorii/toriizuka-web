@@ -1671,8 +1671,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 	}
 
 		#container #contact-section #contact-me #contact-me-inner {
-			background-color: white;
-			height: auto;
+			background-color: #F2F2F2;
+			height: 500px;
 			margin: 0 auto;
 			position: relative;
 			width: 980px;
