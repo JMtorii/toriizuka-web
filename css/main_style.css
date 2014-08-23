@@ -1656,88 +1656,73 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 
 #container #contact-section {
+	margin: 0 auto;
+	width: 100%;
 	float: left;
 	display: inline;
 	background: url('../images/toriizuka-home.png') no-repeat scroll 50% 0% #FFFFFF;
 	background-size: 100% 100%;
 }
 
-/*#container #splash #splash-inner {
-	width: 100%;
-	height: 600px;
-	position: absolute;
-}
-	
-#container #splash #splash-inner #splash-inner-inner {
-	width: 1100px;
-	height: 570px;
-	margin: 30px auto;
-
-}*/
-
-#container #contact-section,
-#container #contact-section #contact-me {
-	width: 100%;
-	margin: 0 auto;
-}
-
-	#container #contact-section #contact-me #contact-me-inner {
-		width: 980px;
+	#container #contact-section #contact-me {
 		margin: 0 auto;
-		position: relative;
-		height: inherit;
+		width: 100%;
+		height: 600px;		
 	}
 
-	#contact-me {
-		height: 550px;
-		border-top: 7px solid #0f0d0d;
-		color: #000000;
-	}
+		#container #contact-section #contact-me #contact-me-inner {
+			background-color: white;
+			height: auto;
+			margin: 0 auto;
+			position: relative;
+			width: 980px;
+			padding: 20px;
+		}
 
-		#contact-me h6 {
-            font: 100px abril-display, serif;
-            font-style: italic;
-            margin: 0;
-            padding: 0;
-            position: absolute;
-            top: 40px;
-        }
+			#contact-me h6 {
+	            font: 100px abril-display, serif;
+	            font-style: italic;
+	            margin: 0;
+	            padding: 0;
+	            position: absolute;
+	            top: 40px;
+	        }
 
-        #contact-me #contact-me-p {
-        	position: absolute;
-        	top: 140px;
-        	font-family: 'Droid Serif', serif;
-        	font-size: 18px;
-            font-weight: normal;
-        }
+	        #contact-me #contact-me-p {
+	        	position: absolute;
+	        	top: 140px;
+	        	font-family: 'Droid Serif', serif;
+	        	font-size: 18px;
+	            font-weight: normal;
+	        }
 
-        #contact-me #contact-me-sources {
-        	display: block;
-        	float: left;
-        	margin-top: 10px;
-        	height: inherit;
-        	width: inherit;
-        	position: absolute;
-        	top: 200px;
-        }
+	        #contact-me #contact-me-sources {
+	        	display: block;
+	        	float: left;
+	        	margin-top: 10px;
+	        	height: inherit;
+	        	width: inherit;
+	        	position: absolute;
+	        	top: 200px;
+	        }
 
-        	#contact-me #contact-me-sources a img {
-        		width: 460px;
-        		height: auto;
-        		margin: 4px;
-        		box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.1);
-        		border: 5px solid #000000;
-        	}
+	        	#contact-me #contact-me-sources a img {
+	        		width: 460px;
+	        		height: auto;
+	        		margin: 4px;
+	        		box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.1);
+	        		border: 5px solid #000000;
+	        	}
 
-        	#contact-me #contact-me-sources a img:hover {
-        		zoom: 1;
-				-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-				filter: alpha(opacity=60);
-				-moz-opacity:0.6;
-				-khtml-opacity: 0.6;
-           		opacity: 0.6;
-           		border: 5px solid #7e7e7e;
-        	}
+	        	#contact-me #contact-me-sources a img:hover {
+	        		zoom: 1;
+					-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+					filter: alpha(opacity=60);
+					-moz-opacity:0.6;
+					-khtml-opacity: 0.6;
+	           		opacity: 0.6;
+	           		border: 5px solid #7e7e7e;
+	        	}
 
 /* =============================================================================
    ABOUT
@@ -1758,7 +1743,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 	}
 
 		#about-main #about-main-inner {
-			height: inherit;
+			background-color: white;
+			height: auto;
 			margin: 0 auto;
 			position: relative;
 			width: 980px;
