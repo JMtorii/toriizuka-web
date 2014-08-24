@@ -760,7 +760,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 	    	}
 
 	#jun_workforce {
-		height: 1400px;
+		height: 1300px;
 		background: #240000 url('../images/workforce.jpg') center center no-repeat fixed;
 	    border-top: 7px solid #595959;
 	}
@@ -841,7 +841,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
             line-height: 140%;
             color: #E4DFDB;
             width: 500px;
-            top: 600px;
+            top: 550px;
             left: 0px;
 	    }
 
@@ -851,7 +851,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
             line-height: 140%;
             color: #E4DFDB;
             width: 500px;
-            top: 900px;
+            top: 800px;
             left: 0px;
 	    }
 
@@ -861,7 +861,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
             line-height: 140%;
             color: #E4DFDB;
             width: 500px;
-            top: 1150px;
+            top: 1020px;
             left: 0px;
 	    }
 
@@ -883,7 +883,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 	    #jun_workforce #employtouch-img {
 	        position: absolute;
-	        top: 700px;
+	        top: 650px;
 	        left: 600px;
 	    }
 
@@ -894,7 +894,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 	    #jun_workforce #intuit-img {
 	        position: absolute;
-	        top: 980px;
+	        top: 880px;
 	        left: 600px;
 	    }
 
@@ -905,7 +905,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 		#jun_workforce #lumos-img {
 	        position: absolute;
-	        top: 1200px;
+	        top: 1080px;
 	        left: 700px;
 	    }
 
