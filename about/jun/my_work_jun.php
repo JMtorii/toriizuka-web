@@ -36,24 +36,25 @@
 				</div>
 			</div>
 
-			<div id="work-flick-em">
-				<div id="work-flick-em-inner">
-					<h6>Flick 'em</h6>
-                 	<div id="work-flick-em-sub">
+			<div id="work-straight-comfort">
+				<div id="work-straight-comfort-inner">
+					<h6>Straight Comfort</h6>
+                 	<div id="work-straight-comfort-sub">
 	                    <p>
-		                    An Android arcade game using OpenGL.
+		                    An iOS and Android app to improve your ergonomic workstation setup.
                     	</p>
                  	</div>
-	                <div id="work-flick-em-p">
-	                	<p>To develop his Java and visual programming skills, Mark decides to make an arcade game on the Android platform. The mobile game uses OpenGL instead of a simple canvas to display the images and perform animations.</p>
+	                <div id="work-straight-comfort-p">
+	                	<p>As the <b>Principal iOS Developer</b> and <b>Project Manager</b>, Mark, along with a computer engineer canditate and a kinesiology candidate, created Straight Comfort to help those who experience pain while working at their workstation. Mark also acted as the primary UI designer and one of the graphic designers for both the Android and iOS version. Both versions were made natively using XCode and Android Studio.</p>
+						<p>For more information, check out the Straight Comfort page.</p>	
 					</div>
-					<div id="work-flick-em-status">
+					<div id="work-straight-comfort-status">
 						<p>
-							<span class="work-flick-em-status-title">Status: </span>
-							<span class="work-flick-em-status-stat">On hiatus</span>
+							<span class="work-straight-comfort-status-title">Status: </span>
+							<span class="work-straight-comfort-status-stat">Completed</span>
 						</p>
 					</div>
-					<div id="flick-em-img">
+					<div id="straight-comfort-img">
 <!-- 						<img src="http://toriizuka.com/images/question.png">
  -->					</div>
 				</div>

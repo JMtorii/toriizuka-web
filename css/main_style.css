@@ -1013,7 +1013,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 #container #my-work,
 #container #my-work #work-intro,
-#container #my-work #work-flick-em,
+#container #my-work #work-straight-comfort,
 #container #my-work #work-portable-n64,
 #container #my-work #work-toriizuka,
 #container #my-work #work-school,
@@ -1128,21 +1128,20 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
             }
 
-    #container #my-work #work-flick-em #work-flick-em-inner {
+    #container #my-work #work-straight-comfort #work-straight-comfort-inner {
 		width: 980px;
 		margin: 0 auto;
 		position: relative;
 		height: inherit;
 	}
 
-	#work-flick-em {
-		height: 500px;
-/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
-*/		background: #37221a;
+	#work-straight-comfort {
+		height: 550px;
+	 	background: #000040 url('../images/straightcomfort.jpg') center center no-repeat fixed;
 		border-top: 7px solid #0f0d0d;
 	}
 
-		#work-flick-em h6 {
+		#work-straight-comfort h6 {
             font: 100px abril-display, serif;
             font-style: bold;
             color: #E4DFDB;
@@ -1155,18 +1154,18 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 			top: 30px;
         }
 
-        #work-flick-em #flick-em-img {
+        #work-straight-comfort #straight-comfort-img {
             position: absolute;
             top: 100px;
             left: 550px;
 		}
 
-			#work-flick-em #flick-em-img img {
+			#work-straight-comfort #straight-comfort-img img {
 	            width: 200px;
 	            height: auto;
 			}
 
-		#work-flick-em #work-flick-em-sub {
+		#work-straight-comfort #work-straight-comfort-sub {
 		    font: 29px abril-display, serif;
 		    font-weight: normal;
 		    font-style: italic;
@@ -1178,7 +1177,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
             left: 0px;
 		}
 
-		    #work-flick-em #work-flick-em-sub p {
+		    #work-straight-comfort #work-straight-comfort-sub p {
 		        position: relative;
 		        -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -1188,7 +1187,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 				height: 120px;
 		    }
 
-        #work-flick-em #work-flick-em-p {
+        #work-straight-comfort #work-straight-comfort-p {
           	font-family: 'Droid Serif', serif;
 			font-size: 18px;
             font-weight: normal;
@@ -1203,26 +1202,26 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
             text-align: justify;
         }
 
-            #work-flick-em #work-flick-em-p p {
+            #work-straight-comfort #work-straight-comfort-p p {
                 position: relative;
 		        -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
             }
 
-        #work-flick-em #work-flick-em-status {
+        #work-straight-comfort #work-straight-comfort-status {
         	position: absolute;
-        	top: 380px;
+        	top: 450px;
         	font-family: 'Droid Serif', serif;
         	font-size: 18px;
         	color:white;
         }
 
-	        #work-flick-em #work-flick-em-status p .work-flick-em-status-title {
+	        #work-straight-comfort #work-straight-comfort-status p .work-straight-comfort-status-title {
 	        	font-style:italic;
 	        }
 
-	        #work-flick-em #work-flick-em-status p .work-flick-em-status-stat {
+	        #work-straight-comfort #work-straight-comfort-status p .work-straight-comfort-status-stat {
 	        	
 	        }
 
@@ -1235,8 +1234,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 	#work-portable-n64 {
 		height: 500px;
-/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
-*/		background: #0c3707;
+		background: #000000 url('../images/n64.jpg') center center no-repeat fixed;
 		border-top: 7px solid #0f0d0d;
 	}
 
@@ -1310,7 +1308,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
         #work-portable-n64 #work-portable-n64-status {
         	position: absolute;
-        	top: 330px;
+        	top: 400px;
         	font-family: 'Droid Serif', serif;
         	font-size: 18px;
         	color:white;
@@ -1333,8 +1331,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 	#work-toriizuka {
 		height: 600px;
-/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
-*/		background: #002c68;
+		background: #000000 url('../images/toriizuka-work.jpg') center center no-repeat fixed;
 		border-top: 7px solid #0f0d0d;
 	}
 
@@ -1433,8 +1430,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 	#work-school {
 		height: 700px;
-/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
-*/		background: #580b0b;
+		background: #000000 url('../images/school.jpg') center center no-repeat fixed;
 		border-top: 7px solid #0f0d0d;
 	}
 
@@ -1550,8 +1546,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 	#work-future {
 		height: 670px;
-/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
-*/		background: #381644;
+		background: #000000 url('../images/future.jpg') center center no-repeat fixed;
 		border-top: 7px solid #0f0d0d;
 	}
 
