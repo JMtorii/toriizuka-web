@@ -496,9 +496,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
     #allan_a_martin {
 	    height: 750px;
-	    background: #000066 url('../images/allanamartin.jpg') center center no-repeat fixed;
-/*		background: #515963;
-*/	    border-top: 7px solid #000;
+	    background: #002420 url('../images/allanamartin.jpg') center center no-repeat fixed;
+	    border-top: 7px solid #000;
 	}
 
 		#allan_a_martin h6 {
@@ -565,8 +564,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 	    }
 
 	    #allan_a_martin #allan_a_martin-img {
-/*	        background: url('../images/wade-cropped.png') no-repeat;
-*/            width: 671px;
+            width: 671px;
             height: 989px;
             position: absolute;
             right: -80px;
@@ -582,8 +580,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
     #jun_high_school {
 	    height: 897px;
 	    background: #281600 url('../images/portcredit.jpg') center center no-repeat fixed;
-/*		background: #220363;
-*/	    border-top: 7px solid #0d0d16;
+	    border-top: 7px solid #0d0d16;
 	}
 
 	    #jun_high_school #jun_high_school-img1 {
@@ -764,9 +761,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 	#jun_workforce {
 		height: 1400px;
-		background: #3b0300 url('../images/workforce.jpg') center center no-repeat fixed;
-/*		background-color: #292929;
-*/	    border-top: 7px solid #595959;
+		background: #240000 url('../images/workforce.jpg') center center no-repeat fixed;
+	    border-top: 7px solid #595959;
 	}
 	    #jun_workforce #jun_workforce-h6 {
 	        position: absolute;
@@ -910,7 +906,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 		#jun_workforce #lumos-img {
 	        position: absolute;
 	        top: 1200px;
-	        left: 600px;
+	        left: 700px;
 	    }
 
 	    	#jun_workforce #lumos-img img {
