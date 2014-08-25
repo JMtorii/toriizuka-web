@@ -408,8 +408,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 	#juntorii {
 		height: 850px;
-	 	background: url('../images/jun_main_background.jpg') center center no-repeat fixed;
-	 	background-color: #000000;
+/*	 	background: url('../images/jun_main_background.jpg') center center no-repeat fixed;
+*/	 	background-color: #000000;
 		border-top: 7px solid #0f0d0d;
 	}
 
@@ -1081,11 +1081,11 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 		    font-weight: normal;
 		    font-style: italic;
 		    color: #e4dfdb;
-		    margin: 0;
-		    padding: 0;
-		    position: absolute;
-		    top: 230px;
-            left: 0px;
+		    position: relative;
+		    top: 250px;
+		    margin-left: auto;
+		    margin-right: auto;
+		    width: 800px;
 		}
 
 		    #work-intro #work-intro-sub p {
@@ -1094,29 +1094,28 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 				display: block;
-				width: 800px;
 				height: 120px;
+				text-align: center;
 		    }
 
-		        #work-intro #work-intro-sub p span {
+/*		        #work-intro #work-intro-sub p span {
     		        position: absolute;
     		    }
 
     		        #work-intro #work-intro-sub p .work-intro-span-1 { top: 0px;  }
                     #work-intro #work-intro-sub p .work-intro-span-2 { top: 35px; }
-                    #work-intro #work-intro-sub p .work-intro-span-3 { top: 70px; }
+                    #work-intro #work-intro-sub p .work-intro-span-3 { top: 70px; }*/
 
         #work-intro #work-intro-p {
           	font-family: 'Droid Serif', serif;
 			font-size: 18px;
             font-weight: normal;
             color: #e4dfdb;
-            margin: 0;
-            padding: 0;
-            position: absolute;
-            top: 380px;
-            left: 0px;
-            width: 450px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            top: 280px;
+            width: 900px;
             line-height: 150%;
             text-align: justify;
         }
@@ -1306,6 +1305,16 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
             }
 
+            #work-portable-n64 #work-portable-n64-p a {
+                font-weight: bold;
+                text-decoration: underline;
+                color: #FFF;
+            }
+
+            #work-portable-n64 #work-portable-n64-p a:hover {
+                color: #FF0;
+            }
+
         #work-portable-n64 #work-portable-n64-status {
         	position: absolute;
         	top: 400px;
@@ -1429,7 +1438,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 	}
 
 	#work-school {
-		height: 700px;
+		height: 920px;
 		background: #000000 url('../images/school.jpg') center center no-repeat fixed;
 		border-top: 7px solid #0f0d0d;
 	}
@@ -1509,6 +1518,11 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
             	top: 200px;
             }
 
+            #work-school #work-school-p #work-school-3 {
+            	position: absolute;
+            	top: 350px;
+            }
+
             	#work-school #work-school-p .work-school-title{
 	            	font: italic 29px abril-display,serif;
 	            }
@@ -1523,7 +1537,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
         #work-school #work-school-status {
         	position: absolute;
-        	top: 600px;
+        	top: 850px;
         	font-family: 'Droid Serif', serif;
         	font-size: 18px;
         	color:white;
@@ -1545,7 +1559,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 	}
 
 	#work-future {
-		height: 670px;
+		height: 550px;
 		background: #000000 url('../images/future.jpg') center center no-repeat fixed;
 		border-top: 7px solid #0f0d0d;
 	}
@@ -1618,7 +1632,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
             #work-future #work-future-p #work-future-2 {
             	position: absolute;
-            	top: 150px;
+            	top: 120px;
             }
 
             	#work-future #work-future-p .work-future-title{
@@ -1631,7 +1645,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
         #work-future #work-future-status {
         	position: absolute;
-        	top: 530px;
+        	top: 480px;
         	font-family: 'Droid Serif', serif;
         	font-size: 18px;
         	color:white;
@@ -1764,5 +1778,5 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
    ========================================================================== */
 #pdf-section #pdf-area object{
 	width: 100%;
-	height: 1200px;
+	height: 100%;
 }
