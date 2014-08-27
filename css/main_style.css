@@ -388,7 +388,10 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 #container #my-story #jun_high_school,
 #container #my-story #waterloo,
 #container #my-story #jun_workforce,
-#container #my-story #agnesiizuka {
+#container #my-story #agnesiizuka, 
+#container #my-story #agnes_high_school,
+#container #my-story #ryerson,
+#container #my-story #agnes_workforce {
 	width: 100%;
 	margin: 0 auto;
 }
@@ -398,8 +401,10 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 	#container #my-story #jun_high_school #jun_high_school-inner,
 	#container #my-story #waterloo #waterloo-inner,
 	#container #my-story #jun_workforce #jun_workforce-inner,
-	#container #my-story #agnesiizuka #agnesiizuka-inner/*,
-	#container #my-story #jun_personal_work #jun_personal_work-inner*/ {
+	#container #my-story #agnesiizuka #agnesiizuka-inner,
+	#container #my-story #agnes_high_school #agnes_high_school-inner,
+	#container #my-story #ryerson #ryerson-inner,
+	#container #my-story #agnes_workforce #agnes_workforce-inner {
 		width: 980px;
 		margin: 0 auto;
 		position: relative;
@@ -916,15 +921,15 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 /* Agnes specific */
 	#agnesiizuka {
-		height: 850px;
+		height: 750px;
 	 	/*background: url('../images/jun_main_background.jpg') center center no-repeat fixed;*/
-	 	background-color: #FFFFFF;
+	 	background-color: #662A48;
 		border-top: 7px solid #0f0d0d;
 	}
 
 		#agnesiizuka h6 {
             font: 130px abril-display, serif;
-            color: #000000;
+            color: #FFFFFF;
             font-style: italic;
             margin: 0;
             padding: 0;
@@ -947,7 +952,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 		    font: 29px abril-display, serif;
 		    font-weight: normal;
 		    font-style: italic;
-		    color: #000000;
+		    color: #FFFFFF;
 		    margin: 0;
 		    padding: 0;
 		    position: absolute;
@@ -979,7 +984,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
           	font-family: 'Droid Serif', serif;
 			font-size: 18px;
             font-weight: normal;
-            color: #000000;
+            color: #FFFFFF;
             margin: 0;
             padding: 0;
             position: absolute;
@@ -1002,6 +1007,285 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
             top: 670px;
             left: 480px;
         }
+
+
+    #agnes_high_school {
+	    height: 950px;
+/*	    background: #281600 url('../images/portcredit.jpg') center center no-repeat fixed;
+*/	    background-color: #2a2a2a;
+	    border-top: 7px solid #0d0d16;
+	}
+
+	    #agnes_high_school #agnes_high_school-img1 {
+	        position: absolute;
+	        top: 300px;
+	        left: 550px;
+	    }
+
+	    #agnes_high_school #agnes_high_school-img2 {
+	        position: absolute;
+	        top: 550px;
+	        left: 550px;
+	    }
+
+	    	#agnes_high_school img {
+		        width: 250px;
+		        height: auto;
+		    }
+
+	    #agnes_high_school #agnes_high_school-h6 {
+	        position: absolute;
+			color: #FFFFFF;
+			font: 120px abril-display, serif;
+			font-style: italic;
+			top: 0px;
+			left: 0px;
+			width: 670px;
+			height: 210px;
+			display: block;
+			margin-top: 40px;
+	    }
+
+			#agnes_high_school #agnes_high_school-h6 #high_line1-1 h6 {
+				margin: 0px;
+				position:absolute;
+				font-size: 140px;
+
+			}
+
+			#agnes_high_school #agnes_high_school-h6 #high_line1-2 h6 {
+				margin: 0px;
+				position:absolute;
+				font-style: normal;
+				left: 500px;
+			}
+
+			.chrome #agnes_high_school #agnes_high_school-h6 #high_line1-2 h6 {
+				top: 55px;
+			}
+
+			.gecko #agnes_high_school #agnes_high_school-h6 #high_line1-2 h6 {
+				top: 57px;
+			}
+
+			#agnes_high_school #agnes_high_school-h6 #high_line2 h6 {
+				margin: 0px;
+				position:absolute;
+				font-style: normal;
+				top: 140px;
+			}
+
+		#agnes_high_school #agnes_high_school-sub {
+		    position: absolute;
+            color: #E4DFDB;
+            font: 36px abril-display, serif;
+            font-weight: normal;
+            font-style: italic;
+            width: 500px;
+            left: 0px;
+			top: 280px;
+		}
+
+		#agnes_high_school #agnes_high_school-p {
+		    color: white;
+            position: absolute;
+            left: 0px;
+            font-family: 'Droid Serif', serif;
+            font-size: 18px;
+            line-height: 140%;
+            top: 450px;
+            width: 400px;
+        }
+
+
+    #ryerson {
+		height: 700px;
+		background: #003040 url('../images/waterloo-full.jpg') center center no-repeat fixed;
+	    border-top: 7px solid #595959;
+	}
+	    #ryerson #ryerson-h6 {
+	        position: absolute;
+            color: white;
+            top: 10px;
+            margin: 0;
+            padding: 0;
+	    }
+
+            #ryerson #ryerson-h6 #ryerson-first h6 {
+            	font: 80px abril-fatface, serif;
+	            position: absolute;
+	            margin: 0px;
+				width: 100px;
+				height: 180px;
+				left: 700px;
+				top: 18px;
+            }
+
+            #ryerson #ryerson-h6 #ryerson-second h6 {
+            	font: 70px abril-display, serif;
+            	font-style: italic;
+	            position: absolute;
+	            margin: 0px;
+				width: 50px;
+				height: 180px;
+				top: 26px;
+				left: 915px;
+            }
+
+            .gecko #ryerson #ryerson-h6 #ryerson-second h6 {
+            	top: 33px;
+            }
+
+            #ryerson #ryerson-h6 #ryerson-third h6 {
+            	font: 150px abril-fatface, serif;
+	            position: absolute;
+	            margin: 0px;
+				width: 520px;
+				height: 180px;
+				top: 90px;
+				left: 290px;
+            }
+
+        #ryerson #ryerson-sub {
+	        position: absolute;
+            -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            font: 36px abril-display, serif;
+            color: #E4DFDB;
+            top: 250px;
+            font-style: italic;
+            width: 600px;
+            left: 370px;
+	    }
+
+	    #ryerson #ryerson-p1 p{
+	        position: absolute;
+            font: 18px 'Droid Serif', serif;
+            line-height: 140%;
+            color: #E4DFDB;
+            top: 450px;
+            left: 370px;
+            width: 600px;
+	    }
+
+		#ryerson #ryerson-p2 {
+	        position: absolute;
+            font: 16px purista-web, sans-serif;
+            color: #E4DFDB;
+            top: 700px;
+            left: 370px;
+            width: 300px;
+	    }
+
+	    #ryerson #ryerson-link {
+	        position: absolute;
+            bottom: 390px;
+	    }
+
+	    #ryerson #ryerson-img {
+	        position: absolute;
+	        top: 300px;
+	        left: 0px;
+	    }
+	    	#ryerson #ryerson-img img {
+	    		width: 300px;
+	    		height: auto;
+	    	}
+
+
+	#agnes_workforce {
+		height: 700px;
+/*		background: #240000 url('../images/workforce.jpg') center center no-repeat fixed;
+*/	    background-color: #000000;
+	    border-top: 7px solid #595959;
+	}
+	    #agnes_workforce #agnes_workforce-h6 {
+	        position: absolute;
+            color: white;
+            top: 10px;
+            margin: 0;
+            padding: 0;
+	    }
+
+            #agnes_workforce #agnes_workforce-h6 #agnes_workforce-first h6 {
+            	font: 80px abril-fatface, serif;
+	            position: absolute;
+	            margin: 0px;
+				width: 520px;
+				height: 180px;
+				left: 340px;
+				top: 18px;
+            }
+
+            #agnes_workforce #agnes_workforce-h6 #agnes_workforce-second h6 {
+            	font: 70px abril-display, serif;
+            	font-style: italic;
+	            position: absolute;
+	            margin: 0px;
+				width: 520px;
+				height: 180px;
+				top: 90px;
+				left: 400px;
+            }
+
+            #agnes_workforce #agnes_workforce-h6 #agnes_workforce-third h6 {
+            	font: 150px abril-fatface, serif;
+	            position: absolute;
+	            margin: 0px;
+				width: 520px;
+				height: 180px;
+				top: 140px;
+				left: 20px;
+            }
+
+        #agnes_workforce #agnes_workforce-sub {
+	        position: absolute;
+            -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            font: 36px abril-display, serif;
+            color: #E4DFDB;
+            top: 280px;
+            font-style: italic;
+            text-align: justify;
+	    }
+
+	    #agnes_workforce h5 {
+	    	font: 36px 'Droid Serif', serif;
+	    	color: #E4DFDB;
+	    }
+
+	    #agnes_workforce p {
+	    	position: absolute;
+	    	top: 100px;
+	    }
+
+	    #agnes_workforce #ppc {
+	    	position: absolute;
+            font: 18px 'Droid Serif', serif;
+            line-height: 140%;
+            color: #E4DFDB;
+            width: 500px;
+            top: 300px;
+            left: 0px;
+	    }
+
+	    #agnes_workforce #agnes_workforce-link {
+	        position: absolute;
+            bottom: 390px;
+	    }
+
+	    #agnes_workforce #ppc-img {
+	        position: absolute;
+	        top: 400px;
+	        left: 600px;
+	    }
+
+	    	#agnes_workforce #ppc-img img {
+		        width: 300px;
+		        height: auto;
+		    }
 
 /* =============================================================================
    MY-WORK
