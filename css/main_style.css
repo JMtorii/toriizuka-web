@@ -2058,10 +2058,89 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 
 /* =============================================================================
-   PDF
+   MY-WORK-GALLERY
    ========================================================================== */
-/*object{
+
+#my-work-gallery {
+	margin: 0 auto;
 	width: 100%;
-	height: 700px;
-	overflow: hidden;
-}*/
+	height: 1000px;
+	float: left;
+	position: relative;
+	display: block;
+	background: url('../images/toriizuka-home.png') no-repeat scroll 50% 0% #FFFFFF;
+	background-size: 100% 100%;
+}
+	
+	#main-boxes {
+		width: 1000px;
+		margin: 0px auto;
+		padding: 28px 0px;
+	}
+
+		#main-boxes ul {
+			overflow: hidden;
+		}
+
+			#main-boxes ul li {
+				float: left;
+				width: 320px;
+				height: 308px;
+				list-style-type: none;
+				position: relative;
+				cursor: pointer;
+			}
+
+				#main-boxes ul li img {
+					display: block;
+				}
+
+		/*Image titles*/
+		#main-boxes .image_title {
+			width: 250px; height: 175px;
+			background: rgba(0, 0, 0, 0.5);
+			position: absolute;
+			top: 0; left: 0;
+			display: table;
+			/*Hover effect - default state*/
+			opacity: 0;
+			transition: all 0.5s;
+		}
+
+		#main-boxes .title {
+			color: #fff;
+			background: rgba(0, 0, 0, 0.5);
+			text-transform: uppercase;
+			font-size: 14px;
+			text-align: center;
+			/*Vertical center align*/
+			display: table-cell;
+			vertical-align: middle;
+			/*Hover effect - default state*/
+			transform: scale(0.2);
+			transition: all 0.25s;
+		}
+
+			/*Zoom icon over each title using iconfont and pseudo elements*/
+			#main-boxes .title::before {
+				content: 'L';
+				font-family: websymbols;
+				font-size: 24px;
+				color: #fff;
+				opacity: 0.5;
+				display: block;
+				line-height: 36px;
+			}
+
+		/*Hover states*/
+		#main-boxes li:hover {
+			box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, 0.75);
+		}
+
+			#main-boxes li:hover .image_title {
+				opacity: 1;
+			}
+			
+			#main-boxes li:hover .title {
+				transform: scale(1);
+			}
