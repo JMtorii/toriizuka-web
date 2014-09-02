@@ -18,6 +18,7 @@
 						<a href="http://toriizuka.com/about/jun/my_story_jun.php">My Story</a>
 						<a href="http://toriizuka.com/about/jun/my_work_jun.php">My Work</a>
 						<a href="http://toriizuka.com/about/jun/my_resume_jun.php">My Resume</a>
+						<a href="http://toriizuka.com/straightcomfort/straight_comfort.php">Straight Comfort</a>
 						<a href="http://toriizuka.com/about/jun/contact_me_jun.php">Contact Me</a>
 					</div>
 				</li>

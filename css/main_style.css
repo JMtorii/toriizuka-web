@@ -2084,11 +2084,12 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 			#main-boxes ul li {
 				float: left;
-				width: 320px;
-				height: 308px;
+				width: 230px;
+				height: 154px;
 				list-style-type: none;
 				position: relative;
 				cursor: pointer;
+				margin: 0 90px 40px 0;
 			}
 
 				#main-boxes ul li img {
@@ -2144,3 +2145,130 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 			#main-boxes li:hover .title {
 				transform: scale(1);
 			}
+
+/*Lightbox element style*/
+.lb_backdrop {
+	background: rgba(0, 0, 0, 0.9);
+	position: fixed;
+	top: 0; left: 0; right: 0; bottom: 0;
+}
+
+/*The canvas contains the larger image*/
+.lb_canvas {
+	background: white;
+	width: 50px; height: 50px;
+	position: fixed;
+	top: 0; left: 0; /*Will be centered later by Jquery*/
+	box-shadow: 0 0 20px 5px black;
+	padding: 10px;
+}
+
+/*A separate class for loading GIF, for easy Jquery handling*/
+.lb_canvas.loading {
+	background: white url("http://thecodeplayer.com/uploads/media/loading.gif") center center no-repeat;
+}
+
+/*Lightbox Controls*/
+.lb_controls {
+	width: 400px; 
+	background: rgba(0, 0, 0, 0.75);
+	position: fixed;
+	bottom: 10px;
+	color: white;
+	/*To horizontally center it*/
+	left: 0; right: 0; margin: 0 auto; 
+}
+
+.lb_controls span {
+	line-height: 30px;
+	height: 30px;
+}
+
+.lb_controls span.inactive {
+	opacity: 0.25;
+}
+
+.lb_previous, .lb_next {
+	position: absolute;
+	top: 0;
+	padding: 5px 12px;
+	font-family: websymbols;
+	font-size: 14px;
+	background: black;
+	cursor: pointer;
+}
+
+.lb_previous {
+	left: 0;
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.lb_next {
+	right: 0;
+	border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.lb_title {
+	text-align: center;
+	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 5px 0;
+	font-weight: bold;
+}
+
+
+/* =============================================================================
+   STRAIGHT-COMFORT
+   ========================================================================== */
+#straight-comfort-section {
+	margin: 0 auto;
+	width: 100%;
+	height: 1300px;
+	float: left;
+	position: relative;
+	display: block;
+	background-color: #1EAEFC;
+	background-size: 100% 100%;
+}
+
+	#straight-comfort-section #title-img {
+    	position: absolute;
+    	top: 0px;
+    	width: 100%;
+	}
+
+		#title-img img {
+			width: 500px;
+			height: auto;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+	#straight-comfort-section #backdrop-img {
+    	position: absolute;
+    	top: 250px;
+    	width: 100%;
+	}
+
+		#backdrop-img img {
+			width: 1000px;
+			height: auto;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+	#sub-title {
+		position: absolute;
+		top: 210px;
+		width: 100%;
+	}
+
+		#sub-title h6 {
+			color: white;
+			text-align: center;
+			font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+			font-size: 25px;
+		}
