@@ -13,13 +13,14 @@
 		<!-- ------------------- SPLASH ----------------------- -->
 		<section id="splash">
 			<section id="splash-inner">
-<!-- 				<div id="jun-link">
-					<a href="http://toriizuka.com/about/jun/my_story_jun.php"></a>
+				<br style="clear:both;"/>
+				<div id="left-section">
+					<h6>Jun Mark Torii</h6>
 				</div>
 
-				<div id="agnes-link">
-					<a href="#"></a>
-				</div> -->
+				<div id="right-section">
+					<h6>Agnes Yoko Iizuka</h6>
+				</div>
 			</section>
 		</section>
           

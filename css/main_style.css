@@ -81,8 +81,7 @@ nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0
 		#container #top #top-inner nav {
            	float: left;
            	margin: 25px 80px;
-           	position: absolute;
-           	left: 500px;
+           	position: relative;
            	z-index: 1;
 		}
 
@@ -226,42 +225,32 @@ nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0
 		position: relative;
 		margin: 0 auto;
 	}
+
+		#container #splash #splash-inner h6 {
+			font: 55px abril-display, serif;
+			text-align: center;
+		}
+
+		#splash-inner #left-section {
+			width: 490px;
+			height: inherit;
+			float: left;
+		}
+
+		#splash-inner #right-section {
+			width: 490px;
+			height: inherit;
+			float: right;
+		}
+
+/*		#splash-inner #vertical-line {
+			 height: 200px;
+			 border-left: 1px solid black;
+			 position: absolute;
+			 top: 50px;
+			 left: 250px;
+		}*/
 		
-		#container #splash #splash-inner a {
-			background-size: 100% auto;
-			background-position: left top;
-			background-repeat: no-repeat;
-			width: 980px;
-			height: 150px;
-			display: block;
-			position: absolute;
-		}
-
-		#container #splash #splash-inner #jun-link a {
-			background-image: url('../images/jun-main-grey.gif');
-			top: 50px;
-			/*left: 100px;*/
-		}
-
-		#container #splash #splash-inner #agnes-link a {
-			background-image: url('../images/agnes-main-grey.gif');
-			position: absolute;
-			top: 230px;
-/*			left: 100px;
-*/		}
-
-/*			#container #splash #splash-inner img {
-				width:1000px;
-				height: auto;
-			}*/
-
-			#container #splash #splash-inner #jun-link a:hover {
-				background-image: url('../images/jun-main.gif') ;
-			}
-
-			#container #splash #splash-inner #agnes-link a:hover {
-				background-image: url('../images/agnes-main.gif') ;
-			}
 				
 
 /* =============================================================================
