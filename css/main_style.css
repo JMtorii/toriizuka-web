@@ -81,6 +81,9 @@ nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0
 		#container #top #top-inner nav {
            	float: left;
            	margin: 25px 80px;
+           	position: absolute;
+           	left: 500px;
+           	z-index: 1;
 		}
 
 			ul.sdt_menu{
@@ -2084,21 +2087,25 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 			#main-boxes ul li {
 				float: left;
-				width: 230px;
-				height: 154px;
+				width: 250px;
+				height: 175px;
 				list-style-type: none;
 				position: relative;
 				cursor: pointer;
-				margin: 0 90px 40px 0;
+				margin: 0 70px 40px 0;
 			}
 
 				#main-boxes ul li img {
 					display: block;
+					width: inherit;
+					height: inherit;
+					border: 5px solid #000;
 				}
 
 		/*Image titles*/
 		#main-boxes .image_title {
-			width: 250px; height: 175px;
+			width: 260px; 
+			height: 185px;
 			background: rgba(0, 0, 0, 0.5);
 			position: absolute;
 			top: 0; left: 0;

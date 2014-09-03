@@ -12,6 +12,8 @@ $(document).ready(function(){
 		item = $(this);
 		img = item.find("img");
 		title = item.find(".title").html();
+
+		$("nav").css("z-index", "0");
 		
 		//Remove active class from previously clicked LI
 		$("#my-work-gallery li.active").removeClass("active");
@@ -91,9 +93,15 @@ $(document).ready(function(){
 	})
 	
 	//Click based navigation
-	doc.on("click", ".lb_previous", function(){ navigate(-1) });
-	doc.on("click", ".lb_next", function(){ navigate(1) });
-	doc.on("click", ".lb_backdrop", function(){ navigate(0) });
+	doc.on("click", ".lb_previous", function(){ 
+		navigate(-1) 
+	});
+	doc.on("click", ".lb_next", function(){ 
+		navigate(1) 
+	});
+	doc.on("click", ".lb_backdrop", function(){ 
+		navigate(0) 
+	});
 	
 	//Keyboard based navigation
 	doc.keyup(function(e){
@@ -125,6 +133,7 @@ $(document).ready(function(){
 				//empty canvas and title
 				$(".lb_canvas, .lb_title").html("");
 			})
+			$("nav").css("z-index", "1");
 			lb_loading= false;
 		}
 	}
