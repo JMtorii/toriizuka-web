@@ -226,9 +226,26 @@ nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0
 		margin: 0 auto;
 	}
 
+		#splash-inner #divider {
+			 height: 0px;
+			 width: 5px;
+			 margin-left: auto;
+			 margin-right: auto;
+			 display: block;
+		}
+
+			#splash-inner #divider img {
+				 width: 2px;
+				 height: 420px;
+			}
+
 		#container #splash #splash-inner h6 {
-			font: 55px abril-display, serif;
+			font: bold 55px abril-display, serif;
 			text-align: center;
+			padding-bottom: 0px;
+			margin-top: 90px;
+			margin-bottom: 0px;
+
 		}
 
 		#splash-inner #left-section {
@@ -243,13 +260,40 @@ nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0
 			float: right;
 		}
 
-/*		#splash-inner #vertical-line {
-			 height: 200px;
-			 border-left: 1px solid black;
-			 position: absolute;
-			 top: 50px;
-			 left: 250px;
-		}*/
+			#splash-inner #desc {
+				width: 300px;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+
+			}
+
+				#desc p {
+					font: italic 30px abril-display, serif;
+					text-align: center;
+				}
+
+					#desc a {
+						width: 180px;
+						background: no-repeat scroll 9px #E6E0D9;
+						padding: 10px 23px 3px 23px;
+						height: 36px;
+						font-size: 36px;
+						font-weight: normal;
+						line-height: 30px;
+						font-family: abril-display, serif;
+						font-style: italic;
+						text-decoration: none;
+						color: black;
+						border-radius: 2px;
+						border-bottom: 1px solid #BAB5AF;
+						box-shadow: 2px 2px 0px 0px rgb(0,0,0,0.1);
+						display: block;
+						margin-left: auto;
+						margin-right: auto;
+						text-shadow: 1px 1px 0px #F4EFE9;
+						text-align: center;
+					}
 		
 				
 
@@ -913,9 +957,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 /* Agnes specific */
 	#agnesiizuka {
-		height: 750px;
-	 	/*background: url('../images/jun_main_background.jpg') center center no-repeat fixed;*/
-	 	background-color: #662A48;
+		height: 820px;
+	 	background-color: rgb(35,46,57);
 		border-top: 7px solid #0f0d0d;
 	}
 
@@ -927,16 +970,18 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
             padding: 0;
             position: absolute;
             top: 70px;
+            width: inherit;
+            text-align: right;
         }
 
         #agnesiizuka #agnesiizuka-img {
         	position: absolute;
-        	left: 490px;
-        	top: 220px;
+        	left: 30px;
+        	top: 280px;
 		}
 
 			#agnesiizuka img {
-				width: 420px;
+				width: 400px;
 				height: auto;
 			}
 
@@ -950,6 +995,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 		    position: absolute;
 		    top: 200px;
             left: 0px;
+            width: inherit;
 		}
 
 		    #agnesiizuka #agnesiizuka-sub p {
@@ -958,12 +1004,15 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 				display: block;
-				width: 700px;
+				width: inherit;
 				height: 120px;
+
 		    }
 
 		        #agnesiizuka #agnesiizuka-sub p span {
     		        position: absolute;
+    		        width: inherit;
+    		        text-align: right;
     		    }
 
     		        #agnesiizuka #agnesiizuka-sub p .agnesiizuka-span-1 { top: 0px;  }
@@ -981,7 +1030,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
             padding: 0;
             position: absolute;
             top: 380px;
-            left: 0px;
+            left: 600px;
             width: 380px;
             line-height: 150%;
             text-align: justify;
@@ -1002,7 +1051,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 
     #agnes_high_school {
-	    height: 950px;
+	    height: 850px;
 /*	    background: #281600 url('../images/portcredit.jpg') center center no-repeat fixed;
 */	    background-color: #2a2a2a;
 	    border-top: 7px solid #0d0d16;
@@ -1086,7 +1135,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
             font-size: 18px;
             line-height: 140%;
             top: 450px;
-            width: 400px;
+            width: 500px;
+            text-align: justify;
         }
 
 
@@ -1149,6 +1199,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
             font-style: italic;
             width: 600px;
             left: 370px;
+            text-align: right;
+            flaot: right;
 	    }
 
 	    #ryerson #ryerson-p1 p{
@@ -2220,7 +2272,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 #straight-comfort-section {
 	margin: 0 auto;
 	width: 100%;
-	height: 1300px;
+	height: 1100px;
 	float: left;
 	position: relative;
 	display: block;
@@ -2268,3 +2320,35 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 			font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 			font-size: 25px;
 		}
+
+	#background-cover {
+		background-color: #dedede;
+		height: 250px;
+		width: inherit;
+		position: absolute;
+		top: 850px;
+		-webkit-box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+        -moz-box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+        box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+		z-index: 100;
+		border-color: #FFFFFF;
+	}
+
+		#background-cover #android {
+			width: 450px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+			display: block;
+		}
+
+			#android #android-github {
+				display: inline;
+				float: right;
+				height: 200px;
+				width: 200px;
+				padding-left: 50px;
+				padding-top: 10px;
+				text-align: center;
+				font-size: 20px;
+			}

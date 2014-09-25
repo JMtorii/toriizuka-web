@@ -19,19 +19,18 @@
 					<h6> Agnes Yoko Iizuka </h6>
 					
 					<div id="agnesiizuka-img">
-						<!--<img src="http://toriizuka.com/images/jun-crossed.gif">-->
+						<img src="http://toriizuka.com/images/agnesportrait.jpg">
 					</div>
 
                  	<div id="agnesiizuka-sub">
 	                    <p>
-		                    <span class="agnesiizuka-span-1">Line 1</span>
-		                    <span class="agnesiizuka-span-2">Line 2</span>
-		                    <span class="agnesiizuka-span-3">Line 3</span>
-		                    
+		                    <span class="agnesiizuka-span-1">As a girl filled with imagination and ambition, <b>Agnes Iizuka</b></span>
+		                    <span class="agnesiizuka-span-2">is on her way to become the best fashion</span>
+		                    <span class="agnesiizuka-span-3">designer she can be.</span>
                     	</p>
                  	</div>
 	                <div id="agnesiizuka-p">
-	                	<p>Agnes Iizuka is a Canadian of both Brazilian and Japanese descent. She is a lover of the arts and of different cultures. She enjoys learning different languages and studying fashion.  Agnes attended Our Lady of Good Voyage Elementary School, which was followed by St. Joseph Secondary School. Following her high school career, Agnes continued her education at Ryerson University as a Fashion Design Major.</p>
+	                	<p>Agnes Iizuka is a Canadian of both Brazilian and Japanese descent. She is a lover of the arts and of different cultures. She enjoys learning different languages and studying design. Agnes attended Our Lady of Good Voyage Elementary School, which was followed by St. Joseph Secondary School. Following her high school career, Agnes continued her education at Ryerson University as a Fashion Design Major.</p>
 					</div>
 				</div>
 			</div>
@@ -48,16 +47,16 @@
 						<p>Agnes Iizuka attends St. Joseph’s Secondary School.</p>
 	                </div>
 	                <div id="agnes_high_school-p">
-						<p>Agnes began her education in visual arts at St. Joseph’s secondary school. She participated in the Mississauga arts community events such the Dufferin Peel school board wide “Images” Competition. She was well known amongst her peers for her participation in school events such as “Artsapalooza”. An exhibition featuring students’ work in visual arts. She was also consistent in her extracurricular activities. She was awarded as the most dedicated member of the art council/open studio. Agnes was also recognized as a PATH (Peer as Teacher’s Help) student teaching a gr.10 visual arts class during her last year at St. Joseph’s. Finally She graduated with honours and was accepted to Ryerson University for Fashion Design.</p>
+						<p>Agnes began her education in visual arts at St. Joseph’s secondary school. She participated in the Mississauga arts community events such the Dufferin Peel school board wide “Images” Competition. She was well known amongst her peers for her participation in school events such as “Artsapalooza”: an exhibition featuring students’ work in visual arts. She was awarded as the most dedicated member of the art council/open studio. Agnes was also recognized as a PATH (Peer as Teacher’s Help) student teaching a gr.10 visual arts class during her last year at St. Joseph’s. Finally, she graduated with honours and was accepted to Ryerson University for Fashion Design.</p>
 	                </div>
 
 	                <div id="agnes_high_school-img1">
-	                	<img src="http://toriizuka.com/images/graydonlogo.png">
-	                </div>
+<!-- 	                	<img src="http://toriizuka.com/images/graydonlogo.png">
+ -->	                </div>
 
 	                <div id="agnes_high_school-img2">
-	                	<img src="http://toriizuka.com/images/portcreditlogo.png">
-	                </div>
+<!-- 	                	<img src="http://toriizuka.com/images/portcreditlogo.png">
+ -->	                </div>
 
 				</div>
 			</div>
@@ -70,17 +69,17 @@
 						<div id="ryerson-third"><h6>RYERSON</h6></div>
 	                </div>
 	                <div id="ryerson-sub">
-						<p>Agnes attends Ryerson.</p>
+						<p>Agnes attends Ryerson University: one of the best universities for fashion design.</p>
 	                </div>
 	                <div id="ryerson-p1">
-	                	<p>Agnes accomplished everything.</p>
+	                	<p>Agnes enrols in Fashion Design (Bachelor of Design) in the Ryerson University. By enrolling in Fashion Design, Agnes has had the opportunity to learn about fabrics, colours, patterns, and styles. She'll later be able to create ready-to-wear apparel and use her expertise in a variety of design-related roles.</p>
 	                </div>
 	                <div id="ryerson-p2">
 	                	<p></p>
 	                </div>
 	                <div id="ryerson-img">
-	                	<img src="http://toriizuka.com/images/waterloologo.png">
-	                </div>
+<!-- 	                	<img src="http://toriizuka.com/images/waterloologo.png">
+ -->	                </div>
 
 				</div>
 			</div>
@@ -94,8 +93,8 @@
 	                </div>
 
 	                <div id="ppc-img">
-	                	<img src="http://toriizuka.com/images/csdc.png">
-	                </div>
+<!-- 	                	<img src="http://toriizuka.com/images/csdc.png">
+ -->	                </div>
 
 	                <div id="ppc">
 	                	<h5>Paper People Clothing</h5>

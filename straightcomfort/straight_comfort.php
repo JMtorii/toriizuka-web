@@ -22,6 +22,17 @@
 			<div id="backdrop-img">
 				<img src="http://toriizuka.com/images/backdropScreenshot.png">
 			</div>
+
+			<div id="background-cover">
+				<div id="android">
+					<a href="https://play.google.com/store/apps/details?id=com.jrs.StraightComfort" id="play">
+						<img alt="Get it on Google Play" src="http://toriizuka.com/images/en_generic_rgb_wo_60.png" />
+					</a>
+					<a href="https://github.com/jsh0211/StraightComfort-Android" id="android-github">
+						Get the Android version on Github
+					</a>
+				</div>
+			</div>
 		</section>
         
 		<!-- ------------------- FOOTER ----------------------- -->
