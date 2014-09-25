@@ -1,4 +1,4 @@
-$(function() {
+$(function nav() {
     $('#sdt_menu > li').bind('mouseenter',function(){
         var $elem = $(this);
         $elem.find('img')

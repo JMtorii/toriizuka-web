@@ -21,10 +21,7 @@
 					<div id="work-intro-img"> </div>
                  	<div id="work-intro-sub">
 	                    <p>
-		                    <span class="work-intro-span-1">As a co-op student in the University of Waterloo, <strong>Mark Torii</strong></span>
-		                    <span class="work-intro-span-2">has had the opporunity to experience actual work and</span>
-		                    <span class="work-intro-span-3">be driven to work on personal projects.</span>
-		                    
+		                    As a co-op student in the University of Waterloo, <strong>Mark Torii</strong> has had the opporunity to experience actual work and be driven to work on personal projects.
                     	</p>
                  	</div>
 	                <div id="work-intro-p">
@@ -36,24 +33,25 @@
 				</div>
 			</div>
 
-			<div id="work-flick-em">
-				<div id="work-flick-em-inner">
-					<h6>Flick 'em</h6>
-                 	<div id="work-flick-em-sub">
+			<div id="work-straight-comfort">
+				<div id="work-straight-comfort-inner">
+					<h6>Straight Comfort</h6>
+                 	<div id="work-straight-comfort-sub">
 	                    <p>
-		                    An Android arcade game using OpenGL.
+		                    An iOS and Android app to improve your ergonomic workstation setup.
                     	</p>
                  	</div>
-	                <div id="work-flick-em-p">
-	                	<p>To develop his Java and visual programming skills, Mark decides to make an arcade game on the Android platform. The mobile game uses OpenGL instead of a simple canvas to display the images and perform animations.</p>
+	                <div id="work-straight-comfort-p">
+	                	<p>As the <b>Principal iOS Developer</b> and <b>Project Manager</b>, Mark, along with a computer engineer canditate and a kinesiology candidate, created Straight Comfort to help those who experience pain while working at their workstation. Mark also acted as the primary UI designer and one of the graphic designers for both the Android and iOS version. Both versions were made natively using XCode and Android Studio.</p>
+						<p>For more information, check out the Straight Comfort page.</p>	
 					</div>
-					<div id="work-flick-em-status">
+					<div id="work-straight-comfort-status">
 						<p>
-							<span class="work-flick-em-status-title">Status: </span>
-							<span class="work-flick-em-status-stat">On hiatus</span>
+							<span class="work-straight-comfort-status-title">Status: </span>
+							<span class="work-straight-comfort-status-stat">Completed</span>
 						</p>
 					</div>
-					<div id="flick-em-img">
+					<div id="straight-comfort-img">
 <!-- 						<img src="http://toriizuka.com/images/question.png">
  -->					</div>
 				</div>
@@ -63,12 +61,11 @@
 				<div id="work-portable-n64-inner">
 					<h6>Portable N64</h6>
                  	<div id="work-portable-n64-sub">
-	                    <p>
-		                    An attempt to make one of the most popular video game consoles a portable device.
-                    	</p>
+	                    <p>An attempt to make one of the most popular video game consoles a portable device.</p>
                  	</div>
 	                <div id="work-portable-n64-p">
 	                	<p>Mark, along with a computer engineer candidate, attempts to make a portable Nintendo 64 using the original N64 motherboard and various electronic components. All designs and constructions are done privately between the two so that they can understand hardware and electronics better.</p>
+						<p>Check out some images of the progress <a href="https://drive.google.com/folderview?id=0B1u68KfFgmsQM2NmT2hRU3FsQTQ&usp=sharing">here</a>.</p>
 					</div>
 					<div id="work-portable-n64-status">
 						<p>
@@ -121,6 +118,11 @@
 	                		<span class="work-school-class">CS 247 - Software Abstraction and Specification<br></span>
 	                		<span class="work-school-desc">Using C++ and GTK+, Mark created a desktop card game using the Model-View-Controller design pattern.</span>
                 		</div>
+                		<div id="work-school-3">
+                			<span class="work-school-title">Real-Time Executive (RTX)<br></span>
+	                		<span class="work-school-class">SE 350 - Operating Systems<br></span>
+	                		<span class="work-school-desc">Using C, Mark and three other students created a small RTX and implemented it on Keil MCB1700 board with an NXP LPC1768 microcontroller. The executive provided a basic multiprogramming environment with five priority levels, simple memory management, preemption, message-based inter-process communication, timing service, system console I/O and debugging support.</span>
+                		</div>
 					</div>
 					<div id="work-school-status">
 						<p>
@@ -141,12 +143,12 @@
                  	</div>
 	                <div id="work-future-p">
 	                	<div id="work-future-1">
-	                		<span class="work-future-title">Mobile Group Project<br></span>
-	                		<span class="work-future-desc">Alongside his roommates, Mark plans to potentially help start a mobile app project for kinesiology students, physiotherapists, ergonomists, and physiologists.</span>
+	                		<span class="work-future-title">Flick 'Em<br></span>
+	                		<span class="work-future-desc">Using Unity, Mark plans to create a simple arcade game for multiple platforms</span>
                 		</div>
                 		<div id="work-future-2">
-                			<span class="work-future-title">Unity Game<br></span>
-	                		<span class="work-future-desc">To truly experience game development, Mark plans to create a game using Unity. </span>
+                			<span class="work-future-title">A Horror Game<br></span>
+	                		<span class="work-future-desc">Using Unreal Engine, Mark plans to create a 3D horror game.</span>
                 		</div>
 					</div>
 					<div id="work-future-status">

@@ -81,6 +81,8 @@ nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0
 		#container #top #top-inner nav {
            	float: left;
            	margin: 25px 80px;
+           	position: relative;
+           	z-index: 1;
 		}
 
 			ul.sdt_menu{
@@ -213,7 +215,8 @@ nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0
 #container #splash {
 	width: 100%;
 	height: 450px;
-	background: rgb(203,202,200);
+	background: url('../images/toriizuka-home.png') no-repeat scroll 50% 0% #FFFFFF;
+	background-size: 100% 100%;
 	border-bottom: 7px solid #d4d0cc;
 }
 	#container #splash #splash-inner {
@@ -222,42 +225,76 @@ nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0
 		position: relative;
 		margin: 0 auto;
 	}
+
+		#splash-inner #divider {
+			 height: 0px;
+			 width: 5px;
+			 margin-left: auto;
+			 margin-right: auto;
+			 display: block;
+		}
+
+			#splash-inner #divider img {
+				 width: 2px;
+				 height: 420px;
+			}
+
+		#container #splash #splash-inner h6 {
+			font: bold 55px abril-display, serif;
+			text-align: center;
+			padding-bottom: 0px;
+			margin-top: 90px;
+			margin-bottom: 0px;
+
+		}
+
+		#splash-inner #left-section {
+			width: 490px;
+			height: inherit;
+			float: left;
+		}
+
+		#splash-inner #right-section {
+			width: 490px;
+			height: inherit;
+			float: right;
+		}
+
+			#splash-inner #desc {
+				width: 300px;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+
+			}
+
+				#desc p {
+					font: italic 30px abril-display, serif;
+					text-align: center;
+				}
+
+					#desc a {
+						width: 180px;
+						background: no-repeat scroll 9px #E6E0D9;
+						padding: 10px 23px 3px 23px;
+						height: 36px;
+						font-size: 36px;
+						font-weight: normal;
+						line-height: 30px;
+						font-family: abril-display, serif;
+						font-style: italic;
+						text-decoration: none;
+						color: black;
+						border-radius: 2px;
+						border-bottom: 1px solid #BAB5AF;
+						box-shadow: 2px 2px 0px 0px rgb(0,0,0,0.1);
+						display: block;
+						margin-left: auto;
+						margin-right: auto;
+						text-shadow: 1px 1px 0px #F4EFE9;
+						text-align: center;
+					}
 		
-		#container #splash #splash-inner a {
-			background-size: 100% auto;
-			background-position: left top;
-			background-repeat: no-repeat;
-			width: 980px;
-			height: 150px;
-			display: block;
-			position: absolute;
-		}
-
-		#container #splash #splash-inner #jun-link a {
-			background-image: url('../images/jun-main-grey.gif');
-			top: 50px;
-			/*left: 100px;*/
-		}
-
-		#container #splash #splash-inner #agnes-link a {
-			background-image: url('../images/agnes-main-grey.gif');
-			position: absolute;
-			top: 230px;
-/*			left: 100px;
-*/		}
-
-/*			#container #splash #splash-inner img {
-				width:1000px;
-				height: auto;
-			}*/
-
-			#container #splash #splash-inner #jun-link a:hover {
-				background-image: url('../images/jun-main.gif') ;
-			}
-
-			#container #splash #splash-inner #agnes-link a:hover {
-				background-image: url('../images/agnes-main.gif') ;
-			}
 				
 
 /* =============================================================================
@@ -387,7 +424,10 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 #container #my-story #jun_high_school,
 #container #my-story #waterloo,
 #container #my-story #jun_workforce,
-#container #my-story #agnesiizuka {
+#container #my-story #agnesiizuka, 
+#container #my-story #agnes_high_school,
+#container #my-story #ryerson,
+#container #my-story #agnes_workforce {
 	width: 100%;
 	margin: 0 auto;
 }
@@ -397,8 +437,10 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 	#container #my-story #jun_high_school #jun_high_school-inner,
 	#container #my-story #waterloo #waterloo-inner,
 	#container #my-story #jun_workforce #jun_workforce-inner,
-	#container #my-story #agnesiizuka #agnesiizuka-inner/*,
-	#container #my-story #jun_personal_work #jun_personal_work-inner*/ {
+	#container #my-story #agnesiizuka #agnesiizuka-inner,
+	#container #my-story #agnes_high_school #agnes_high_school-inner,
+	#container #my-story #ryerson #ryerson-inner,
+	#container #my-story #agnes_workforce #agnes_workforce-inner {
 		width: 980px;
 		margin: 0 auto;
 		position: relative;
@@ -407,8 +449,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 	#juntorii {
 		height: 850px;
-	 	background: url('../images/jun_main_background.jpg') center center no-repeat fixed;
-	 	background-color: #000000;
+/*	 	background: url('../images/jun_main_background.jpg') center center no-repeat fixed;
+*/	 	background-color: #000000;
 		border-top: 7px solid #0f0d0d;
 	}
 
@@ -495,9 +537,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
     #allan_a_martin {
 	    height: 750px;
-	    background: #000066 url('../images/allanamartin.jpg') center center no-repeat fixed;
-/*		background: #515963;
-*/	    border-top: 7px solid #000;
+	    background: #002420 url('../images/allanamartin.jpg') center center no-repeat fixed;
+	    border-top: 7px solid #000;
 	}
 
 		#allan_a_martin h6 {
@@ -520,20 +561,21 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 		    }
 
 		    	#allan_a_martin #mid_line1 h6{
+		    		top:60px;
 		    		font-family: Georgia, serif;
 		    		font-size: 160px;
 		    		bottom: 0px;
 			    }
 
 			    #allan_a_martin #mid_line2 h6 {
-			    	top:150px;
+			    	top:190px;
 			    	margin-top: 0px;
 			    	font: 80px abril-display, serif;
 			    	font-style: italic;
 			    }
 
 			    #allan_a_martin #mid_line3 h6 {
-			    	top:250px;
+			    	top:290px;
 			    	margin-top: -50px;
 			    	font-family: Palatino Linotype, serif;
 			    	font-size:80px;
@@ -563,8 +605,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 	    }
 
 	    #allan_a_martin #allan_a_martin-img {
-/*	        background: url('../images/wade-cropped.png') no-repeat;
-*/            width: 671px;
+            width: 671px;
             height: 989px;
             position: absolute;
             right: -80px;
@@ -580,8 +621,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
     #jun_high_school {
 	    height: 897px;
 	    background: #281600 url('../images/portcredit.jpg') center center no-repeat fixed;
-/*		background: #220363;
-*/	    border-top: 7px solid #0d0d16;
+	    border-top: 7px solid #0d0d16;
 	}
 
 	    #jun_high_school #jun_high_school-img1 {
@@ -666,7 +706,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
         }
 
     #waterloo {
-		height: 900px;
+		height: 700px;
 		background: #003040 url('../images/waterloo-full.jpg') center center no-repeat fixed;
 	    border-top: 7px solid #595959;
 	}
@@ -752,7 +792,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 	    #waterloo #waterloo-img {
 	        position: absolute;
-	        top: 400px;
+	        top: 300px;
 	        left: 0px;
 	    }
 	    	#waterloo #waterloo-img img {
@@ -761,9 +801,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 	    	}
 
 	#jun_workforce {
-		height: 1400px;
-/*		background: #3b0300 url('../images/workspace.jpg') center center no-repeat fixed;
-*/		background-color: #292929;
+		height: 1300px;
+		background: #240000 url('../images/workforce.jpg') center center no-repeat fixed;
 	    border-top: 7px solid #595959;
 	}
 	    #jun_workforce #jun_workforce-h6 {
@@ -843,7 +882,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
             line-height: 140%;
             color: #E4DFDB;
             width: 500px;
-            top: 600px;
+            top: 550px;
             left: 0px;
 	    }
 
@@ -853,7 +892,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
             line-height: 140%;
             color: #E4DFDB;
             width: 500px;
-            top: 900px;
+            top: 800px;
             left: 0px;
 	    }
 
@@ -863,7 +902,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
             line-height: 140%;
             color: #E4DFDB;
             width: 500px;
-            top: 1150px;
+            top: 1020px;
             left: 0px;
 	    }
 
@@ -885,7 +924,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 	    #jun_workforce #employtouch-img {
 	        position: absolute;
-	        top: 700px;
+	        top: 650px;
 	        left: 600px;
 	    }
 
@@ -896,7 +935,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 	    #jun_workforce #intuit-img {
 	        position: absolute;
-	        top: 980px;
+	        top: 880px;
 	        left: 600px;
 	    }
 
@@ -907,8 +946,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 		#jun_workforce #lumos-img {
 	        position: absolute;
-	        top: 1200px;
-	        left: 600px;
+	        top: 1080px;
+	        left: 700px;
 	    }
 
 	    	#jun_workforce #lumos-img img {
@@ -918,30 +957,31 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 /* Agnes specific */
 	#agnesiizuka {
-		height: 850px;
-	 	/*background: url('../images/jun_main_background.jpg') center center no-repeat fixed;*/
-	 	background-color: #FFFFFF;
+		height: 820px;
+	 	background-color: rgb(35,46,57);
 		border-top: 7px solid #0f0d0d;
 	}
 
 		#agnesiizuka h6 {
             font: 130px abril-display, serif;
-            color: #000000;
+            color: #FFFFFF;
             font-style: italic;
             margin: 0;
             padding: 0;
             position: absolute;
             top: 70px;
+            width: inherit;
+            text-align: right;
         }
 
         #agnesiizuka #agnesiizuka-img {
         	position: absolute;
-        	left: 490px;
-        	top: 220px;
+        	left: 30px;
+        	top: 280px;
 		}
 
 			#agnesiizuka img {
-				width: 420px;
+				width: 400px;
 				height: auto;
 			}
 
@@ -949,12 +989,13 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 		    font: 29px abril-display, serif;
 		    font-weight: normal;
 		    font-style: italic;
-		    color: #000000;
+		    color: #FFFFFF;
 		    margin: 0;
 		    padding: 0;
 		    position: absolute;
 		    top: 200px;
             left: 0px;
+            width: inherit;
 		}
 
 		    #agnesiizuka #agnesiizuka-sub p {
@@ -963,12 +1004,15 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 				display: block;
-				width: 700px;
+				width: inherit;
 				height: 120px;
+
 		    }
 
 		        #agnesiizuka #agnesiizuka-sub p span {
     		        position: absolute;
+    		        width: inherit;
+    		        text-align: right;
     		    }
 
     		        #agnesiizuka #agnesiizuka-sub p .agnesiizuka-span-1 { top: 0px;  }
@@ -981,12 +1025,12 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
           	font-family: 'Droid Serif', serif;
 			font-size: 18px;
             font-weight: normal;
-            color: #000000;
+            color: #FFFFFF;
             margin: 0;
             padding: 0;
             position: absolute;
             top: 380px;
-            left: 0px;
+            left: 600px;
             width: 380px;
             line-height: 150%;
             text-align: justify;
@@ -1005,6 +1049,288 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
             left: 480px;
         }
 
+
+    #agnes_high_school {
+	    height: 850px;
+/*	    background: #281600 url('../images/portcredit.jpg') center center no-repeat fixed;
+*/	    background-color: #2a2a2a;
+	    border-top: 7px solid #0d0d16;
+	}
+
+	    #agnes_high_school #agnes_high_school-img1 {
+	        position: absolute;
+	        top: 300px;
+	        left: 550px;
+	    }
+
+	    #agnes_high_school #agnes_high_school-img2 {
+	        position: absolute;
+	        top: 550px;
+	        left: 550px;
+	    }
+
+	    	#agnes_high_school img {
+		        width: 250px;
+		        height: auto;
+		    }
+
+	    #agnes_high_school #agnes_high_school-h6 {
+	        position: absolute;
+			color: #FFFFFF;
+			font: 120px abril-display, serif;
+			font-style: italic;
+			top: 0px;
+			left: 0px;
+			width: 670px;
+			height: 210px;
+			display: block;
+			margin-top: 40px;
+	    }
+
+			#agnes_high_school #agnes_high_school-h6 #high_line1-1 h6 {
+				margin: 0px;
+				position:absolute;
+				font-size: 140px;
+
+			}
+
+			#agnes_high_school #agnes_high_school-h6 #high_line1-2 h6 {
+				margin: 0px;
+				position:absolute;
+				font-style: normal;
+				left: 500px;
+			}
+
+			.chrome #agnes_high_school #agnes_high_school-h6 #high_line1-2 h6 {
+				top: 55px;
+			}
+
+			.gecko #agnes_high_school #agnes_high_school-h6 #high_line1-2 h6 {
+				top: 57px;
+			}
+
+			#agnes_high_school #agnes_high_school-h6 #high_line2 h6 {
+				margin: 0px;
+				position:absolute;
+				font-style: normal;
+				top: 140px;
+			}
+
+		#agnes_high_school #agnes_high_school-sub {
+		    position: absolute;
+            color: #E4DFDB;
+            font: 36px abril-display, serif;
+            font-weight: normal;
+            font-style: italic;
+            width: 500px;
+            left: 0px;
+			top: 280px;
+		}
+
+		#agnes_high_school #agnes_high_school-p {
+		    color: white;
+            position: absolute;
+            left: 0px;
+            font-family: 'Droid Serif', serif;
+            font-size: 18px;
+            line-height: 140%;
+            top: 450px;
+            width: 500px;
+            text-align: justify;
+        }
+
+
+    #ryerson {
+		height: 700px;
+		background: #003040 url('../images/waterloo-full.jpg') center center no-repeat fixed;
+	    border-top: 7px solid #595959;
+	}
+	    #ryerson #ryerson-h6 {
+	        position: absolute;
+            color: white;
+            top: 10px;
+            margin: 0;
+            padding: 0;
+	    }
+
+            #ryerson #ryerson-h6 #ryerson-first h6 {
+            	font: 80px abril-fatface, serif;
+	            position: absolute;
+	            margin: 0px;
+				width: 100px;
+				height: 180px;
+				left: 700px;
+				top: 18px;
+            }
+
+            #ryerson #ryerson-h6 #ryerson-second h6 {
+            	font: 70px abril-display, serif;
+            	font-style: italic;
+	            position: absolute;
+	            margin: 0px;
+				width: 50px;
+				height: 180px;
+				top: 26px;
+				left: 915px;
+            }
+
+            .gecko #ryerson #ryerson-h6 #ryerson-second h6 {
+            	top: 33px;
+            }
+
+            #ryerson #ryerson-h6 #ryerson-third h6 {
+            	font: 150px abril-fatface, serif;
+	            position: absolute;
+	            margin: 0px;
+				width: 520px;
+				height: 180px;
+				top: 90px;
+				left: 290px;
+            }
+
+        #ryerson #ryerson-sub {
+	        position: absolute;
+            -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            font: 36px abril-display, serif;
+            color: #E4DFDB;
+            top: 250px;
+            font-style: italic;
+            width: 600px;
+            left: 370px;
+            text-align: right;
+            flaot: right;
+	    }
+
+	    #ryerson #ryerson-p1 p{
+	        position: absolute;
+            font: 18px 'Droid Serif', serif;
+            line-height: 140%;
+            color: #E4DFDB;
+            top: 450px;
+            left: 370px;
+            width: 600px;
+	    }
+
+		#ryerson #ryerson-p2 {
+	        position: absolute;
+            font: 16px purista-web, sans-serif;
+            color: #E4DFDB;
+            top: 700px;
+            left: 370px;
+            width: 300px;
+	    }
+
+	    #ryerson #ryerson-link {
+	        position: absolute;
+            bottom: 390px;
+	    }
+
+	    #ryerson #ryerson-img {
+	        position: absolute;
+	        top: 300px;
+	        left: 0px;
+	    }
+	    	#ryerson #ryerson-img img {
+	    		width: 300px;
+	    		height: auto;
+	    	}
+
+
+	#agnes_workforce {
+		height: 700px;
+/*		background: #240000 url('../images/workforce.jpg') center center no-repeat fixed;
+*/	    background-color: #000000;
+	    border-top: 7px solid #595959;
+	}
+	    #agnes_workforce #agnes_workforce-h6 {
+	        position: absolute;
+            color: white;
+            top: 10px;
+            margin: 0;
+            padding: 0;
+	    }
+
+            #agnes_workforce #agnes_workforce-h6 #agnes_workforce-first h6 {
+            	font: 80px abril-fatface, serif;
+	            position: absolute;
+	            margin: 0px;
+				width: 520px;
+				height: 180px;
+				left: 340px;
+				top: 18px;
+            }
+
+            #agnes_workforce #agnes_workforce-h6 #agnes_workforce-second h6 {
+            	font: 70px abril-display, serif;
+            	font-style: italic;
+	            position: absolute;
+	            margin: 0px;
+				width: 520px;
+				height: 180px;
+				top: 90px;
+				left: 400px;
+            }
+
+            #agnes_workforce #agnes_workforce-h6 #agnes_workforce-third h6 {
+            	font: 150px abril-fatface, serif;
+	            position: absolute;
+	            margin: 0px;
+				width: 520px;
+				height: 180px;
+				top: 140px;
+				left: 20px;
+            }
+
+        #agnes_workforce #agnes_workforce-sub {
+	        position: absolute;
+            -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            font: 36px abril-display, serif;
+            color: #E4DFDB;
+            top: 280px;
+            font-style: italic;
+            text-align: justify;
+	    }
+
+	    #agnes_workforce h5 {
+	    	font: 36px 'Droid Serif', serif;
+	    	color: #E4DFDB;
+	    }
+
+	    #agnes_workforce p {
+	    	position: absolute;
+	    	top: 100px;
+	    }
+
+	    #agnes_workforce #ppc {
+	    	position: absolute;
+            font: 18px 'Droid Serif', serif;
+            line-height: 140%;
+            color: #E4DFDB;
+            width: 500px;
+            top: 300px;
+            left: 0px;
+	    }
+
+	    #agnes_workforce #agnes_workforce-link {
+	        position: absolute;
+            bottom: 390px;
+	    }
+
+	    #agnes_workforce #ppc-img {
+	        position: absolute;
+	        top: 400px;
+	        left: 600px;
+	    }
+
+	    	#agnes_workforce #ppc-img img {
+		        width: 300px;
+		        height: auto;
+		    }
+
 /* =============================================================================
    MY-WORK
    ========================================================================== */
@@ -1015,7 +1341,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 #container #my-work,
 #container #my-work #work-intro,
-#container #my-work #work-flick-em,
+#container #my-work #work-straight-comfort,
 #container #my-work #work-portable-n64,
 #container #my-work #work-toriizuka,
 #container #my-work #work-school,
@@ -1083,11 +1409,11 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 		    font-weight: normal;
 		    font-style: italic;
 		    color: #e4dfdb;
-		    margin: 0;
-		    padding: 0;
-		    position: absolute;
-		    top: 230px;
-            left: 0px;
+		    position: relative;
+		    top: 250px;
+		    margin-left: auto;
+		    margin-right: auto;
+		    width: 800px;
 		}
 
 		    #work-intro #work-intro-sub p {
@@ -1096,29 +1422,28 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 				display: block;
-				width: 800px;
 				height: 120px;
+				text-align: center;
 		    }
 
-		        #work-intro #work-intro-sub p span {
+/*		        #work-intro #work-intro-sub p span {
     		        position: absolute;
     		    }
 
     		        #work-intro #work-intro-sub p .work-intro-span-1 { top: 0px;  }
                     #work-intro #work-intro-sub p .work-intro-span-2 { top: 35px; }
-                    #work-intro #work-intro-sub p .work-intro-span-3 { top: 70px; }
+                    #work-intro #work-intro-sub p .work-intro-span-3 { top: 70px; }*/
 
         #work-intro #work-intro-p {
           	font-family: 'Droid Serif', serif;
 			font-size: 18px;
             font-weight: normal;
             color: #e4dfdb;
-            margin: 0;
-            padding: 0;
-            position: absolute;
-            top: 380px;
-            left: 0px;
-            width: 450px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            top: 280px;
+            width: 900px;
             line-height: 150%;
             text-align: justify;
         }
@@ -1130,21 +1455,20 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
             }
 
-    #container #my-work #work-flick-em #work-flick-em-inner {
+    #container #my-work #work-straight-comfort #work-straight-comfort-inner {
 		width: 980px;
 		margin: 0 auto;
 		position: relative;
 		height: inherit;
 	}
 
-	#work-flick-em {
-		height: 500px;
-/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
-*/		background: #37221a;
+	#work-straight-comfort {
+		height: 550px;
+	 	background: #000040 url('../images/straightcomfort.jpg') center center no-repeat fixed;
 		border-top: 7px solid #0f0d0d;
 	}
 
-		#work-flick-em h6 {
+		#work-straight-comfort h6 {
             font: 100px abril-display, serif;
             font-style: bold;
             color: #E4DFDB;
@@ -1157,18 +1481,18 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 			top: 30px;
         }
 
-        #work-flick-em #flick-em-img {
+        #work-straight-comfort #straight-comfort-img {
             position: absolute;
             top: 100px;
             left: 550px;
 		}
 
-			#work-flick-em #flick-em-img img {
+			#work-straight-comfort #straight-comfort-img img {
 	            width: 200px;
 	            height: auto;
 			}
 
-		#work-flick-em #work-flick-em-sub {
+		#work-straight-comfort #work-straight-comfort-sub {
 		    font: 29px abril-display, serif;
 		    font-weight: normal;
 		    font-style: italic;
@@ -1180,7 +1504,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
             left: 0px;
 		}
 
-		    #work-flick-em #work-flick-em-sub p {
+		    #work-straight-comfort #work-straight-comfort-sub p {
 		        position: relative;
 		        -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -1190,7 +1514,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 				height: 120px;
 		    }
 
-        #work-flick-em #work-flick-em-p {
+        #work-straight-comfort #work-straight-comfort-p {
           	font-family: 'Droid Serif', serif;
 			font-size: 18px;
             font-weight: normal;
@@ -1205,26 +1529,26 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
             text-align: justify;
         }
 
-            #work-flick-em #work-flick-em-p p {
+            #work-straight-comfort #work-straight-comfort-p p {
                 position: relative;
 		        -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 				-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
             }
 
-        #work-flick-em #work-flick-em-status {
+        #work-straight-comfort #work-straight-comfort-status {
         	position: absolute;
-        	top: 380px;
+        	top: 450px;
         	font-family: 'Droid Serif', serif;
         	font-size: 18px;
         	color:white;
         }
 
-	        #work-flick-em #work-flick-em-status p .work-flick-em-status-title {
+	        #work-straight-comfort #work-straight-comfort-status p .work-straight-comfort-status-title {
 	        	font-style:italic;
 	        }
 
-	        #work-flick-em #work-flick-em-status p .work-flick-em-status-stat {
+	        #work-straight-comfort #work-straight-comfort-status p .work-straight-comfort-status-stat {
 	        	
 	        }
 
@@ -1237,8 +1561,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 	#work-portable-n64 {
 		height: 500px;
-/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
-*/		background: #0c3707;
+		background: #000000 url('../images/n64.jpg') center center no-repeat fixed;
 		border-top: 7px solid #0f0d0d;
 	}
 
@@ -1310,9 +1633,19 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
             }
 
+            #work-portable-n64 #work-portable-n64-p a {
+                font-weight: bold;
+                text-decoration: underline;
+                color: #FFF;
+            }
+
+            #work-portable-n64 #work-portable-n64-p a:hover {
+                color: #FF0;
+            }
+
         #work-portable-n64 #work-portable-n64-status {
         	position: absolute;
-        	top: 330px;
+        	top: 400px;
         	font-family: 'Droid Serif', serif;
         	font-size: 18px;
         	color:white;
@@ -1335,8 +1668,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 	#work-toriizuka {
 		height: 600px;
-/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
-*/		background: #002c68;
+		background: #000000 url('../images/toriizuka-work.jpg') center center no-repeat fixed;
 		border-top: 7px solid #0f0d0d;
 	}
 
@@ -1434,9 +1766,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 	}
 
 	#work-school {
-		height: 700px;
-/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
-*/		background: #580b0b;
+		height: 920px;
+		background: #000000 url('../images/school.jpg') center center no-repeat fixed;
 		border-top: 7px solid #0f0d0d;
 	}
 
@@ -1515,6 +1846,11 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
             	top: 200px;
             }
 
+            #work-school #work-school-p #work-school-3 {
+            	position: absolute;
+            	top: 350px;
+            }
+
             	#work-school #work-school-p .work-school-title{
 	            	font: italic 29px abril-display,serif;
 	            }
@@ -1529,7 +1865,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
         #work-school #work-school-status {
         	position: absolute;
-        	top: 600px;
+        	top: 850px;
         	font-family: 'Droid Serif', serif;
         	font-size: 18px;
         	color:white;
@@ -1551,9 +1887,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 	}
 
 	#work-future {
-		height: 670px;
-/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
-*/		background: #381644;
+		height: 550px;
+		background: #000000 url('../images/future.jpg') center center no-repeat fixed;
 		border-top: 7px solid #0f0d0d;
 	}
 
@@ -1625,7 +1960,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
             #work-future #work-future-p #work-future-2 {
             	position: absolute;
-            	top: 150px;
+            	top: 120px;
             }
 
             	#work-future #work-future-p .work-future-title{
@@ -1638,7 +1973,7 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
         #work-future #work-future-status {
         	position: absolute;
-        	top: 530px;
+        	top: 480px;
         	font-family: 'Droid Serif', serif;
         	font-size: 18px;
         	color:white;
@@ -1654,88 +1989,73 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 
 #container #contact-section {
+	margin: 0 auto;
+	width: 100%;
 	float: left;
 	display: inline;
+	background: url('../images/toriizuka-home.png') no-repeat scroll 50% 0% #FFFFFF;
+	background-size: 100% 100%;
 }
 
-/*#container #splash #splash-inner {
-	width: 100%;
-	height: 600px;
-	position: absolute;
-}
-	
-#container #splash #splash-inner #splash-inner-inner {
-	width: 1100px;
-	height: 570px;
-	margin: 30px auto;
-
-}*/
-
-#container #contact-section,
-#container #contact-section #contact-me {
-	width: 100%;
-	margin: 0 auto;
-}
-
-	#container #contact-section #contact-me #contact-me-inner {
-		width: 980px;
+	#container #contact-section #contact-me {
 		margin: 0 auto;
-		position: relative;
-		height: inherit;
+		width: 100%;
+		height: 600px;		
 	}
 
-	#contact-me {
-		height: 550px;
-/*	 	background: #000 url('../images/bg-dwyanewade.jpg') center center no-repeat fixed;
-*/		background: #CBCAC8;
-		border-top: 7px solid #0f0d0d;
-		color: #000000;
-	}
+		#container #contact-section #contact-me #contact-me-inner {
+			background-color: #F2F2F2;
+			height: 500px;
+			margin: 0 auto;
+			position: relative;
+			width: 980px;
+			padding: 20px;
+		}
 
-		#contact-me h6 {
-            font: 100px abril-display, serif;
-            font-style: italic;
-            margin: 0;
-            padding: 0;
-            position: absolute;
-            top: 40px;
-        }
+			#contact-me h6 {
+	            font: 100px abril-display, serif;
+	            font-style: italic;
+	            margin: 0;
+	            padding: 0;
+	            position: absolute;
+	            top: 40px;
+	        }
 
-        #contact-me #contact-me-p {
-        	position: absolute;
-        	top: 140px;
-        	font-family: 'Droid Serif', serif;
-        	font-size: 18px;
-            font-weight: normal;
-        }
+	        #contact-me #contact-me-p {
+	        	position: absolute;
+	        	top: 140px;
+	        	font-family: 'Droid Serif', serif;
+	        	font-size: 18px;
+	            font-weight: normal;
+	        }
 
-        #contact-me #contact-me-sources {
-        	display: block;
-        	float: left;
-        	margin-top: 10px;
-        	height: inherit;
-        	width: inherit;
-        	position: absolute;
-        	top: 200px;
-        }
+	        #contact-me #contact-me-sources {
+	        	display: block;
+	        	float: left;
+	        	margin-top: 10px;
+	        	height: inherit;
+	        	width: inherit;
+	        	position: absolute;
+	        	top: 200px;
+	        }
 
-        	#contact-me #contact-me-sources a img {
-        		width: 460px;
-        		height: auto;
-        		margin: 4px;
-        		box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.1);
-        		border: 5px solid #000000;
-        	}
+	        	#contact-me #contact-me-sources a img {
+	        		width: 460px;
+	        		height: auto;
+	        		margin: 4px;
+	        		box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.1);
+	        		border: 5px solid #000000;
+	        	}
 
-        	#contact-me #contact-me-sources a img:hover {
-        		zoom: 1;
-				-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-				filter: alpha(opacity=60);
-				-moz-opacity:0.6;
-				-khtml-opacity: 0.6;
-           		opacity: 0.6;
-           		border: 5px solid #7e7e7e;
-        	}
+	        	#contact-me #contact-me-sources a img:hover {
+	        		zoom: 1;
+					-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+					filter: alpha(opacity=60);
+					-moz-opacity:0.6;
+					-khtml-opacity: 0.6;
+	           		opacity: 0.6;
+	           		border: 5px solid #7e7e7e;
+	        	}
 
 /* =============================================================================
    ABOUT
@@ -1745,7 +2065,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 	width: 100%;
 	float: left;
 	display: inline;
-	background-color: #CBCAC8;
+	background: url('../images/toriizuka-home.png') no-repeat scroll 50% 0% #FFFFFF;
+	background-size: 100% 100%;
 }
 
 	#about-main {
@@ -1755,7 +2076,8 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 	}
 
 		#about-main #about-main-inner {
-			height: inherit;
+			background-color: white;
+			height: auto;
 			margin: 0 auto;
 			position: relative;
 			width: 980px;
@@ -1780,9 +2102,253 @@ a { color: #4a4237; -webkit-transition: all .1s ease-in-out; -moz-transition: al
 
 
 /* =============================================================================
-   PDF
+   MY-WORK-GALLERY
    ========================================================================== */
-#pdf-section #pdf-area object{
+
+#my-work-gallery {
+	margin: 0 auto;
 	width: 100%;
-	height: 1200px;
+	height: 1000px;
+	float: left;
+	position: relative;
+	display: block;
+	background: url('../images/toriizuka-home.png') no-repeat scroll 50% 0% #FFFFFF;
+	background-size: 100% 100%;
 }
+	
+	#main-boxes {
+		width: 1000px;
+		margin: 0px auto;
+		padding: 28px 0px;
+	}
+
+		#main-boxes ul {
+			overflow: hidden;
+		}
+
+			#main-boxes ul li {
+				float: left;
+				width: 250px;
+				height: 175px;
+				list-style-type: none;
+				position: relative;
+				cursor: pointer;
+				margin: 0 70px 40px 0;
+			}
+
+				#main-boxes ul li img {
+					display: block;
+					width: inherit;
+					height: inherit;
+					border: 5px solid #000;
+				}
+
+		/*Image titles*/
+		#main-boxes .image_title {
+			width: 260px; 
+			height: 185px;
+			background: rgba(0, 0, 0, 0.5);
+			position: absolute;
+			top: 0; left: 0;
+			display: table;
+			/*Hover effect - default state*/
+			opacity: 0;
+			transition: all 0.5s;
+		}
+
+		#main-boxes .title {
+			color: #fff;
+			background: rgba(0, 0, 0, 0.5);
+			text-transform: uppercase;
+			font-size: 14px;
+			text-align: center;
+			/*Vertical center align*/
+			display: table-cell;
+			vertical-align: middle;
+			/*Hover effect - default state*/
+			transform: scale(0.2);
+			transition: all 0.25s;
+		}
+
+			/*Zoom icon over each title using iconfont and pseudo elements*/
+			#main-boxes .title::before {
+				content: 'L';
+				font-family: websymbols;
+				font-size: 24px;
+				color: #fff;
+				opacity: 0.5;
+				display: block;
+				line-height: 36px;
+			}
+
+		/*Hover states*/
+		#main-boxes li:hover {
+			box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, 0.75);
+		}
+
+			#main-boxes li:hover .image_title {
+				opacity: 1;
+			}
+			
+			#main-boxes li:hover .title {
+				transform: scale(1);
+			}
+
+/*Lightbox element style*/
+.lb_backdrop {
+	background: rgba(0, 0, 0, 0.9);
+	position: fixed;
+	top: 0; left: 0; right: 0; bottom: 0;
+}
+
+/*The canvas contains the larger image*/
+.lb_canvas {
+	background: white;
+	width: 50px; height: 50px;
+	position: fixed;
+	top: 0; left: 0; /*Will be centered later by Jquery*/
+	box-shadow: 0 0 20px 5px black;
+	padding: 10px;
+}
+
+/*A separate class for loading GIF, for easy Jquery handling*/
+.lb_canvas.loading {
+	background: white url("http://thecodeplayer.com/uploads/media/loading.gif") center center no-repeat;
+}
+
+/*Lightbox Controls*/
+.lb_controls {
+	width: 400px; 
+	background: rgba(0, 0, 0, 0.75);
+	position: fixed;
+	bottom: 10px;
+	color: white;
+	/*To horizontally center it*/
+	left: 0; right: 0; margin: 0 auto; 
+}
+
+.lb_controls span {
+	line-height: 30px;
+	height: 30px;
+}
+
+.lb_controls span.inactive {
+	opacity: 0.25;
+}
+
+.lb_previous, .lb_next {
+	position: absolute;
+	top: 0;
+	padding: 5px 12px;
+	font-family: websymbols;
+	font-size: 14px;
+	background: black;
+	cursor: pointer;
+}
+
+.lb_previous {
+	left: 0;
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.lb_next {
+	right: 0;
+	border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.lb_title {
+	text-align: center;
+	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 5px 0;
+	font-weight: bold;
+}
+
+
+/* =============================================================================
+   STRAIGHT-COMFORT
+   ========================================================================== */
+#straight-comfort-section {
+	margin: 0 auto;
+	width: 100%;
+	height: 1100px;
+	float: left;
+	position: relative;
+	display: block;
+	background-color: #1EAEFC;
+	background-size: 100% 100%;
+}
+
+	#straight-comfort-section #title-img {
+    	position: absolute;
+    	top: 0px;
+    	width: 100%;
+	}
+
+		#title-img img {
+			width: 500px;
+			height: auto;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+	#straight-comfort-section #backdrop-img {
+    	position: absolute;
+    	top: 250px;
+    	width: 100%;
+	}
+
+		#backdrop-img img {
+			width: 1000px;
+			height: auto;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+	#sub-title {
+		position: absolute;
+		top: 210px;
+		width: 100%;
+	}
+
+		#sub-title h6 {
+			color: white;
+			text-align: center;
+			font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+			font-size: 25px;
+		}
+
+	#background-cover {
+		background-color: #dedede;
+		height: 250px;
+		width: inherit;
+		position: absolute;
+		top: 850px;
+		-webkit-box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+        -moz-box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+        box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+		z-index: 100;
+		border-color: #FFFFFF;
+	}
+
+		#background-cover #android {
+			width: 450px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+			display: block;
+		}
+
+			#android #android-github {
+				display: inline;
+				float: right;
+				height: 200px;
+				width: 200px;
+				padding-left: 50px;
+				padding-top: 10px;
+				text-align: center;
+				font-size: 20px;
+			}
