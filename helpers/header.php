@@ -1,4 +1,4 @@
-<header id="top" role="banner">
+<header id="top" class="fixed-nav-bar" role="banner">
 	<section id="top-inner">
 		<h1 class="ir">
 			<a href="http://toriizuka.com"></a>

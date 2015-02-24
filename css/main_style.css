@@ -49,6 +49,13 @@ nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0
     background: rgb(228, 223, 219);
 
 }
+
+#container .fixed-nav-bar {
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	right: 0;
+}
 	
 	/* Wrapper */
 	#container #top #top-inner {
